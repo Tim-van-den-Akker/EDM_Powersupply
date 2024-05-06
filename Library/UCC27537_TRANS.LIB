@@ -1,0 +1,245 @@
+*$
+*UCC27537
+*****************************************************************************
+* (C) Copyright 2013 Texas Instruments Incorporated. All rights reserved.                                            
+*****************************************************************************
+** This model is designed as an aid for customers of Texas Instruments.
+** TI and its licensors and suppliers make no warranties, either expressed
+** or implied, with respect to this model, including the warranties of 
+** merchantability or fitness for a particular purpose.  The model is
+** provided solely on an "as is" basis.  The entire risk as to its quality
+** and performance is with the customer
+*****************************************************************************
+*
+* This model is subject to change without notice. Texas Instruments
+* Incorporated is not responsible for updating this model.
+*
+*****************************************************************************
+*
+** Released by: WEBENCH Design Center, Texas Instruments Inc.
+* Part: UCC27537
+* Date: 27FEB2013
+* Model Type: TRANSIENT
+* Simulator: PSPICE
+* Simulator Version: 16.2.0.p001
+* EVM Order Number: 
+* EVM Users Guide: 
+* Datasheet: SLUSBA7C 
+*
+* Model Version: Final 1.00
+*
+*****************************************************************************
+*
+* Updates:
+*
+* Final 1.00
+* Release to Web.
+*
+*****************************************************************************
+
+.SUBCKT UCC27537_TRANS EN GND IN OUT VDD  
+X_67_U6         67_UVLO VDD 67_N231824 COMP PARAMS: VHYS=0.7
+X_67_U5         67_EN_TH EN 67_N231828 COMP PARAMS: VHYS=0.9
+V_67_V3         67_N231812 GND 2
+R_67_R2         IN GND  230k  
+V_67_V2         67_N231828 GND 1.9
+X_67_U7         67_UVLO 67_EN_TH 67_IN_TH DRV AND3_BASIC_GEN PARAMS: VDD=1
++  VSS=0 VTHRESH=500E-3
+V_67_VREF         67_N234978 GND 5.8
+V_67_V1         67_N231824 GND 8.9
+R_67_R1         67_N234978 EN  230k  
+X_67_U3         67_IN_TH IN 67_N231812 COMP PARAMS: VHYS=1.0
+V_87_V1         VDD 87_N14518800 0.175
+E_87_E1         87_N14518546 OUT VALUE { IF(V(87_N14519164, 0) > 0.5, 5, -5) }
+R_87_R2         87_N14518516 87_N14518604  15.4  
+R_87_R5         87_N14518768 87_N14518616  0.02  
+X_87_U4         DRV 87_N14519164 DELAY PARAMS:  RINP=1K DELAY=14.7n
+V_87_V2         87_N14518616 GND 97m
+C_87_C5         OUT 87_N14518800  10pF  
+C_87_C1         87_N14518552 87_N14518608  3p  
+R_87_R4         87_N14518800 87_N14518608  0.02  
+R_87_R1         87_N14518546 87_N14518552  130  
+C_87_C4         87_N14518616 OUT  10pF  
+M_87_M4         OUT 87_N14518604 87_N14518768 87_N14518768 NMOS02           
+C_87_C6         OUT 87_N14518604  10p  
+C_87_C3         OUT 87_N14518552  4p  
+C_87_C2         87_N14518768 87_N14518604  3p  
+E_87_E2         87_N14518516 87_N14518768 VALUE { IF(V(87_N14519164, 0) > 0.5,
++  -5, 5) }
+M_87_M3         87_N14518608 87_N14518552 OUT OUT NMOS01           
+.ENDS UCC27537_TRANS
+
+.model NMOS02 nmos
++ vto=2
++ kp=1.111
++ lambda=0.001
+.model NMOS01 nmos
++ vto=2
++ kp=0.5555
++ lambda=0.001
+.SUBCKT FALLING_DELAY IN OUT PARAMS: DELAY=100n VDD=1 VSS=0 VTHRESH=0.5
+X_U1         INT OUT BUF_BASIC_GEN PARAMS: VDD={VDD} VSS={VSS} VTHRESH=
++ {VTHRESH}
+R_R1         IN INT  {DELAY/(0.693 * 1E-9)}  
+C_C1         0 INT  1n  
+D_D1         IN INT DD 
+.MODEL DD D( IS=1F N=0.01 TT = 10p )
+.ENDS FALLING_DELAY
+*$
+.SUBCKT Z_IDEAL A C PARAMS: RS = 1 VTH = 6.4
+G1 A C VALUE { MIN(0, ( V(A) - V(C) + { VTH } ) / { RS } ) }
+R1 A C 1G
+.ENDS Z_IDEAL
+*$
+.SUBCKT INV_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH} , + {VSS},{VDD})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS INV_BASIC_GEN
+*$
+.SUBCKT COMPHYS_BASIC_GEN INP INM HYS OUT PARAMS: VDD=1 VSS=0 VTHRESH=0.5
+EIN INP1 INM1 INP INM 1 
+EHYS INP1 INP2 VALUE { IF( V(1) > {VTHRESH},-V(HYS),0) }
+EOUT OUT 0 VALUE { IF( V(INP2)>V(INM1), {VDD} ,{VSS}) }
+R1 OUT 1 1
+C1 1 0 5n
+RINP1 INP1 0 1K
+.ENDS COMPHYS_BASIC_GEN
+*$
+.SUBCKT BUF_BASIC_GEN A  X PARAMS: VTHRESH=0.5 VDD=1 VSS=0
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH} , + {VDD},{VSS})}}
+RINT YINT X 1
+CINT X 0 1p
+*EVCVS_BUF X 0 VALUE = {0.5 + ( 0.5 * TANH ( (V(A)-{VTHRESH})*1E9))}
+.ENDS BUF_BASIC_GEN
+*$
+.SUBCKT AND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    Y 0 VALUE {{IF(V(A) > {VTHRESH}  &  + V(B) > {VTHRESH},{VDD},{VSS})}}
+*RINT YINT Y 1
+*CINT Y 0 1f
+.ENDS AND2_BASIC_GEN
+*$
+.SUBCKT AND3_BASIC_GEN A B C Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    Y 0 VALUE {{IF(V(A) > {VTHRESH}  &  + V(B) > {VTHRESH} & + V(C) > {VTHRESH},{VDD},{VSS})}}
+*RINT YINT Y 1
+*CINT Y 0 1f
+.ENDS AND3_BASIC_GEN
+*$
+.SUBCKT COMP_BASIC_GEN INP INM Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5	
+E_ABM Yint 0 VALUE {IF (V(INP) > + V(INM), {VDD},{VSS})}
+R1 Yint Y 1
+C1 Y 0 1n
+.ENDS COMP_BASIC_GEN
+*$
+.SUBCKT NAND2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  &  + V(B) > {VTHRESH},{VSS},{VDD})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS NAND2_BASIC_GEN
+*$
+.SUBCKT MUX2_BASIC_GEN A B S Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE  YINT 0 VALUE {{IF(V(S) > {VTHRESH},  + V(B),V(A))}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS MUX2_BASIC_GEN
+*$
+.SUBCKT INV_DELAY_BASIC_GEN A  Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 DELAY = 10n 
+E_ABMGATE1    YINT1 0 VALUE {{IF(V(A) > {VTHRESH} , + {VDD},{VSS})}}
+RINT YINT1 YINT2 1
+CINT YINT2 0 {DELAY*1.3}
+E_ABMGATE2    YINT3 0 VALUE {{IF(V(YINT2) > {VTHRESH} , + {VSS},{VDD})}}
+RINT2 YINT3 Y 1
+CINT2 Y 0 1n
+.ENDS INV_DELAY_BASIC_GEN
+*$
+.SUBCKT OR2_BASIC_GEN A B Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  |  + V(B) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS OR2_BASIC_GEN
+*$
+.SUBCKT OR3_BASIC_GEN A B C Y PARAMS: VDD=1 VSS=0 VTHRESH=0.5 
+E_ABMGATE    YINT 0 VALUE {{IF(V(A) > {VTHRESH}  |  + V(B) > {VTHRESH} |+ V(C) > {VTHRESH},{VDD},{VSS})}}
+RINT YINT Y 1
+CINT Y 0 1n
+.ENDS OR3_BASIC_GEN
+*$
+***Rise time versus voltage***
+.subckt Var_Resistor_HIGH IN VCC GND O+ O-
+E_RVAL RVAL GND VALUE={(0.03787*V(VCC)*V(VCC)-1.02313*V(VCC)+13.2713)*(1-V(IN)) + V(IN)*1e6}
+R_ERVAL RVAL GND 1G
+*R1 O+ 3 1U
+G_R O+ O- VALUE={V(O+,O-)/(V(RVAL))}
+ROUT O+ O- 1G
+*E11 11 0 VALUE={0}
+.ENDS Var_Resistor_HIGH
+*$
+***Fall time versus voltage***
+.subckt Var_Resistor_LOW IN VCC GND O+ O-
+E_RVAL RVAL GND VALUE={(0.0303*V(VCC)*V(VCC)-0.728*V(VCC)+11.0737)*V(IN)+ (1-V(IN))*1e6}
+R_ERVAL RVAL GND 1G
+*R1 O+ 3 1U
+G_R O+ O- VALUE={V(O+,O-)/(V(RVAL))}
+ROUT O+ O- 1G
+*E11 11 0 VALUE={0}
+.ENDS Var_Resistor_LOW
+*$
+***Propagation delay versus voltage***
+.subckt Var_Resistor_PROP VCC GND O+ O-
+E_RVAL RVAL GND VALUE={0.3206*V(VCC)*V(VCC)-7.696*V(VCC)+70.963}
+R_ERVAL RVAL GND 1G
+*R1 O+ 3 1U
+G_R O+ O- VALUE={V(O+,O-)/(V(RVAL))}
+ROUT O+ O- 1G
+*E11 11 0 VALUE={0}
+.ENDS Var_Resistor_PROP
+*$
+.SUBCKT LM3414Q1 D G S Bulk
+M1x D G S Bulk LM3414Q1 
+.MODEL LM3414Q1 NMOS Level=1 CBD=26.5p CBS=31.8p CGBO=142n
++ CGDO=640n CGSO=768n GAMMA=1.59 IS=250f KP=0.968
++ LAMBDA=0.116 MJ=0.460 PB=0.800 PHI=.75 RD=0.108 RS=0.108
++ VTO=2
+*+ VTO=1.28
+.ENDS LM3414Q1
+*$
+.SUBCKT NMOS_1 D G S B PARAMS: L=1U W=1U
+M1   D G S B  DMOS L=1U W=1U
+.MODEL DMOS NMOS(LEVEL=3 VMAX=625k THETA=900m
++ ETA=2.00m VTO=2 KP=107 lambda=0.01
+.ENDS NMOS_1
+*$
+.SUBCKT D_IDEAL A C PARAMS: RS = 1 VTH = 0.7
+G1 A C VALUE { MAX(0, ( V(A) - V(C) - { VTH }) / { RS } ) }
+R1 A C 1G
+.ENDS D_IDEAL
+*$
+.model DIODE01 D
++ IS      = 1E-15
++ N       = 1
++ TT      = 1E-11
++ RS      = 0.5
++ CJO     = 1E-10
++ XTI     = 0.0
+*$
+.SUBCKT DELAY INP OUT PARAMS: RINP = 1k DELAY = 10n 
+R1 INP 101 {RINP}
+C1 101 102 { 1.4427 * DELAY / RINP }
+E1 102   0 OUT   0 0.5
+E2 OUT   0 VALUE {IF(V(101) > 0.5, 1, 0)}
+.ENDS DELAY
+*$
+
+.SUBCKT COMP VOUT VINP VINN PARAMS: VHYS = 0.05 
+E1 YINT 0 VALUE {IF(V(VINP) + V(VOUT)*VHYS > V(VINN), 1, 0)}
+R1 YINT VOUT 1
+C1 VOUT 0 1n
+.ENDS COMP
+*$
+
+.SUBCKT COMP_INV VOUT VINP VINN PARAMS: VHYS = 0.05 
+E1 YINT 0 VALUE {IF(V(VINP) + (1 - V(VOUT))*VHYS > V(VINN), 0, 1)}
+R1 YINT VOUT 1
+C1 VOUT 0 1n
+.ENDS COMP_INV
+*$
