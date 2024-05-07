@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "IPW65R037C6")(type "KiCad")(uri "${KIPRJMOD}/Library/IPW65R037C6_mosfet/IPW65R037C6")(options "")(descr ""))
+)

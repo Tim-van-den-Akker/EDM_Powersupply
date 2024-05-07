@@ -300,6 +300,634 @@
 				)
 			)
 		)
+		(symbol "IPW65R037C6:IPW65R037C6"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -1.27 1.27 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+				)
+			)
+			(property "Value" "IPW65R037C6"
+				(at -1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+				)
+			)
+			(property "Footprint" "INF-PG-TO247-3-44"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "N-Channel CoolMOS C6 Power-Transistor, 650 V VDS, 83.2 A ID, -55 to 150 degC, PG-TO247-3-44, Tube, Green"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "DatasheetVersion" "Rev. 2.0"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PackageVersion" "Rev. 03"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PackageReference" "PG-TO247-3-44"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PackageDescription" "3-Pin Plastic (Green) Transistor Single Outline Package, 15.94 x 20.95 mm Body, 5.44 mm Pitch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier 1" "Mouser"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Supplier Part Number 1" "726-IPW65R037C6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Green" "TRUE"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Halogen-free" "available"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ID (max)" "83.2 A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "IDpuls (max)" "297 A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Packing" "Tube"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Polarity" "N"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Ptot (max)" "500 W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "QG" "330 nC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "RDS (on) (max)" "37 mOhm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Rth" "0.25 K/W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "RthJA (max)" "62 K/W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "RthJC (max)" "0.25 K/W"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Technology" "CoolMOS C6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "VDS (max)" "650 V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "VGS(th) (max)" "3.5 V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "VGS(th) (min)" "2.5 V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Mounting Technology" "Through Hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Infineon"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "PartNumber" "IPW65R037C6"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1Description" "Manufacturer URL"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink1URL" "http://www.infineon.com/"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2Description" "Datasheet"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink2URL" "http://www.infineon.com/dgdl/IPW65R037C6_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a3043337a914d0133877a719210a9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink3Description" "Package Specification"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ComponentLink3URL" "http://www.infineon.com/cms/packages/Leaded_and_through-hole/P-PG-TO247/P-PG-TO247-3-44.html?__locale=en"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.8288 1.8288)
+					)
+					(justify left bottom)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*INF-PG-TO247-3-44*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IPW65R037C6_1_0"
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 2.032 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -0.254) (xy 2.032 -4.826)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -4.826) (xy 2.54 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -3.048) (xy 2.54 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -0.254) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -5.08) (xy 7.62 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -4.318) (xy 2.54 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.762) (xy 2.54 -0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -0.762) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.858 -2.032) (xy 8.382 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 7.62 -3.302)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 7.62 -2.032)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 4.064 -3.048) (xy 4.064 -2.032) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.032) (xy 6.858 -3.302) (xy 8.382 -3.302) (xy 7.62 -2.032)
+					)
+					(stroke
+						(width -0.0001)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 5.08)
+					(name "GATE"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 5.08 270)
+					(length 5.08)
+					(name "DRAIN"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -10.16 90)
+					(length 5.08)
+					(name "SOURCE"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:0"
 			(power)
 			(pin_numbers hide)
@@ -390,319 +1018,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Simulation_SPICE:NMOS"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-				(at 0 -12.7 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NMOS"
-				(at 0 -17.145 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Type" "VDMOS"
-				(at 0 -19.05 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=D 2=G 3=S"
-				(at 0 -15.24 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NMOS_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "NMOS_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -1214,7 +1529,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 30.48) (xy 144.78 30.48)
+			(xy 143.51 27.94) (xy 147.32 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1224,7 +1539,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 58.42) (xy 156.21 62.23)
+			(xy 158.75 60.96) (xy 158.75 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1314,7 +1629,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 30.48) (xy 156.21 30.48)
+			(xy 157.48 27.94) (xy 158.75 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1324,7 +1639,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 44.45) (xy 156.21 48.26)
+			(xy 158.75 41.91) (xy 158.75 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1374,7 +1689,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 36.83) (xy 156.21 30.48)
+			(xy 158.75 34.29) (xy 158.75 27.94)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1729,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 149.86 30.48 270)
+		(at 152.4 27.94 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1423,7 +1738,7 @@
 		(fields_autoplaced yes)
 		(uuid "21d86024-6c9a-4246-ba4c-ce32c8c55c9e")
 		(property "Reference" "V5"
-			(at 149.9898 22.86 90)
+			(at 152.5298 20.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1431,7 +1746,7 @@
 			)
 		)
 		(property "Value" "20"
-			(at 149.9898 25.4 90)
+			(at 152.5298 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1439,7 +1754,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 30.48 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1448,7 +1763,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 149.86 30.48 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1457,7 +1772,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 149.86 30.48 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1466,7 +1781,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 149.86 30.48 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1475,7 +1790,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 149.86 30.48 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1484,7 +1799,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 149.86 30.48 0)
+			(at 152.4 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +2070,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 140.97 30.48 0)
+		(at 143.51 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1764,7 +2079,7 @@
 		(fields_autoplaced yes)
 		(uuid "511db877-8b80-48b4-b442-c07aeaed12e6")
 		(property "Reference" "#PWR06"
-			(at 140.97 36.83 0)
+			(at 143.51 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +2088,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 140.97 35.56 0)
+			(at 143.51 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1781,7 +2096,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 140.97 30.48 0)
+			(at 143.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1790,7 +2105,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 30.48 0)
+			(at 143.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1799,7 +2114,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 30.48 0)
+			(at 143.51 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1821,7 +2136,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 156.21 40.64 0)
+		(at 158.75 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1830,7 +2145,7 @@
 		(fields_autoplaced yes)
 		(uuid "51d56d63-adee-41c0-ac95-b853b7535aa4")
 		(property "Reference" "R2"
-			(at 158.75 39.3699 0)
+			(at 161.29 36.8299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1839,7 +2154,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 158.75 41.9099 0)
+			(at 161.29 39.3699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1848,7 +2163,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.432 40.64 90)
+			(at 156.972 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1857,7 +2172,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 156.21 40.64 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1866,7 +2181,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 156.21 40.64 0)
+			(at 158.75 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,115 +2271,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 153.67 53.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "98fae5d4-32e8-4fe2-a42f-8cbbd1d30522")
-		(property "Reference" "Q1"
-			(at 160.02 52.0699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 160.02 54.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 153.67 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
-			(at 153.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 153.67 70.485 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=drain 2=gate 3=source"
-			(at 153.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "Library\\SimulationModel_CoolMOS_C6_MOSFET_650V_Spice.lib"
-			(at 153.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "IPW65R037C6_L0"
-			(at 153.67 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "d33c75c4-14ca-4c6b-b31e-46688d0e39a5")
-		)
-		(pin "1"
-			(uuid "c1c453c6-92ae-4671-8ff1-c9e30d6bfd23")
-		)
-		(pin "2"
-			(uuid "8c790165-aad8-4ca1-b4fd-d4f7579e6711")
-		)
-		(instances
-			(project "EDM_Powersupply"
-				(path "/25514edd-baec-405d-b564-4fa05365ce84"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 104.14 64.77 180)
 		(unit 1)
@@ -2129,6 +2335,425 @@
 			(project "EDM_Powersupply"
 				(path "/25514edd-baec-405d-b564-4fa05365ce84"
 					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "IPW65R037C6:IPW65R037C6")
+		(at 153.67 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1fa1109-a6e4-4467-9c12-dac9c1d732fd")
+		(property "Reference" "Q1"
+			(at 163.83 51.4349 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "IPW65R037C6"
+			(at 163.83 55.2449 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "INF-PG-TO247-3-44"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "N-Channel CoolMOS C6 Power-Transistor, 650 V VDS, 83.2 A ID, -55 to 150 degC, PG-TO247-3-44, Tube, Green"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DatasheetVersion" "Rev. 2.0"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PackageVersion" "Rev. 03"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PackageReference" "PG-TO247-3-44"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PackageDescription" "3-Pin Plastic (Green) Transistor Single Outline Package, 15.94 x 20.95 mm Body, 5.44 mm Pitch"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier 1" "Mouser"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Supplier Part Number 1" "726-IPW65R037C6"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Green" "TRUE"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Halogen-free" "available"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ID (max)" "83.2 A"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "IDpuls (max)" "297 A"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Packing" "Tube"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Polarity" "N"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Ptot (max)" "500 W"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "QG" "330 nC"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RDS (on) (max)" "37 mOhm"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Rth" "0.25 K/W"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RthJA (max)" "62 K/W"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "RthJC (max)" "0.25 K/W"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Technology" "CoolMOS C6"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VDS (max)" "650 V"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VGS(th) (max)" "3.5 V"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "VGS(th) (min)" "2.5 V"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mounting Technology" "Through Hole"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "PartNumber" "IPW65R037C6"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1Description" "Manufacturer URL"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink1URL" "http://www.infineon.com/"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2Description" "Datasheet"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink2URL" "http://www.infineon.com/dgdl/IPW65R037C6_2_0.pdf?folderId=db3a3043163797a6011637d4bae7003b&fileId=db3a3043337a914d0133877a719210a9"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink3Description" "Package Specification"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "ComponentLink3URL" "http://www.infineon.com/cms/packages/Leaded_and_through-hole/P-PG-TO247/P-PG-TO247-3-44.html?__locale=en"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.8288 1.8288)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "Library\\IPW65R037C6_mosfet\\SimulationModel_CoolMOS_C6_MOSFET_650V_Spice.lib"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "IPW65R037C6_L0"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=gate 2=drain 3=source"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8377ee89-df1c-4c70-b0fa-e1fec41a3051")
+		)
+		(pin "3"
+			(uuid "f0b690e5-ce93-4373-ba66-9263065cfe1b")
+		)
+		(pin "2"
+			(uuid "1d09ccc0-75eb-414c-b6a1-84bcecf21bb3")
+		)
+		(instances
+			(project "EDM_Powersupply"
+				(path "/25514edd-baec-405d-b564-4fa05365ce84"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2204,7 +2829,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 156.21 62.23 0)
+		(at 158.75 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2213,7 +2838,7 @@
 		(fields_autoplaced yes)
 		(uuid "bd634719-585b-478f-b916-a7b6d32d9799")
 		(property "Reference" "#PWR08"
-			(at 156.21 68.58 0)
+			(at 158.75 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2222,7 +2847,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 156.21 67.31 0)
+			(at 158.75 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2230,7 +2855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 62.23 0)
+			(at 158.75 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2239,7 +2864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 156.21 62.23 0)
+			(at 158.75 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2248,7 +2873,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 62.23 0)
+			(at 158.75 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
