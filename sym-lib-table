@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "IPW65R037C6")(type "Altium")(uri "${KIPRJMOD}/Library/IPW65R037C6/IPW65R037C6.SchLib")(options "")(descr ""))
+)
