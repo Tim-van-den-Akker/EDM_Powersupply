@@ -1,4 +1,5 @@
 (fp_lib_table
   (version 7)
   (lib (name "IPW65R037C6")(type "KiCad")(uri "${KIPRJMOD}/Library/IPW65R037C6_mosfet/IPW65R037C6")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Library/UCC27537DBVR_gatedriver/footprints.pretty")(options "")(descr ""))
 )
