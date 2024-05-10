@@ -1,0 +1,50 @@
+(ExpressProject "UCC5350SBD_TRANS"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File ".\ucc5350sbd_trans.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\UCC5350SBD_trans.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x")
+    (PSPICE_Regenerate_Netlist_Flag "FALSE"))
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\ucc5350sbd_trans-pspicefiles\published_schematic\trans.sim"
+        (DisplayName "Published_Schematic-trans")
+        (Type "PSpice Profile"))
+      (ActiveProfile
+         ".\ucc5350sbd_trans-pspicefiles\published_schematic\trans.sim"))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File ".\ucc5350sbd_trans.lib"
+        (Type "PSpiceLibrary")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 0 621 -8 -30 0 263 0 386"))
+      (Tab 0)))
+  (MPSSessionName "x0271406")
+  (PartMRUSelector
+    (UCC5350SBD_TRANS
+      (FullPartName "UCC5350SBDR.Normal")
+      (LibraryName
+         "C:\ELABTRANS_WS\ELABTRANS_DS\PART_NUMBERS\UCC5350SBD\ACTIVE_WORK_SANKALP\EXPERIMENTS\SELF QC\UCC5350SBD_PSPICE_TRANS\UCC5350SBD_TRANS.OLB")
+      (DeviceIndex "0")))
+  (ISPCBBASICLICENSE "false"))
