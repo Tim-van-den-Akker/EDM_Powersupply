@@ -1098,7 +1098,7 @@
 			(uuid "946356d9-bd0e-4d65-ad41-b197fb873f93")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "Q1")
 					(unit 1)
@@ -1164,7 +1164,7 @@
 			(uuid "84bb328d-d66c-457c-a5ba-1800c3f65509")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "#PWR03")
 					(unit 1)
@@ -1230,7 +1230,7 @@
 			(uuid "5785452d-659c-441a-945f-72c86d7902ca")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "#PWR04")
 					(unit 1)
@@ -1257,7 +1257,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
+		(property "Value" "10"
 			(at 168.91 64.7699 0)
 			(effects
 				(font
@@ -1300,7 +1300,7 @@
 			(uuid "f1ce4a5e-e77e-45e8-aa5f-79f7cf5c7e27")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "R3")
 					(unit 1)
@@ -1405,7 +1405,7 @@
 			(uuid "e1b463d9-9dc0-4b42-b0ce-597e5d8d4fd0")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "V1")
 					(unit 1)
@@ -1471,7 +1471,7 @@
 			(uuid "8fd2c120-cf60-4fa8-bf84-014e3db423d3")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "#PWR01")
 					(unit 1)
@@ -1541,7 +1541,7 @@
 			(uuid "7563a2a7-b788-4122-bf09-1673d837b754")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "R2")
 					(unit 1)
@@ -1609,7 +1609,7 @@
 			(uuid "cf503c13-7153-424a-8b7b-b1303ec68796")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "R1")
 					(unit 1)
@@ -1675,7 +1675,7 @@
 			(uuid "ffe4820d-7f3b-489d-be45-26fdd90f20e5")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "#PWR02")
 					(unit 1)
@@ -1701,7 +1701,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "80"
 			(at 160.1498 48.26 90)
 			(effects
 				(font
@@ -1771,7 +1771,7 @@
 			(uuid "50c39c09-897d-4109-b9fc-b6036a248836")
 		)
 		(instances
-			(project "Main_topology"
+			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "V2")
 					(unit 1)
