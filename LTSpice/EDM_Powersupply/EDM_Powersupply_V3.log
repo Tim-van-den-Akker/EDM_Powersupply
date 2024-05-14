@@ -1,4 +1,4 @@
-Circuit: * C:\Users\joey2\Documents\3e jaar\BAP\Github\EDM_Powersupply\LTSpice\EDM_Powersupply\EDM_Powersupply_V2.asc
+Circuit: * C:\Users\joey2\Documents\3e jaar\BAP\Github\EDM_Powersupply\LTSpice\EDM_Powersupply\EDM_Powersupply_V3.asc
 
 Questionable use of curly braces in "b§e_abmgate yint 0 v={if(v(a)>{{vthresh}},{{vss}},{{vdd}})}"
     Error: undefined symbol in: "if([v](a)>((vthresh)),((vss)),((vdd)))"
@@ -14,28 +14,33 @@ Instance "m:u1:_m13:1": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:u1:_m16:1": Length shorter than recommended for a level 1 MOSFET.
 Instance "m:u1:_m14:1": Length shorter than recommended for a level 1 MOSFET.
 Direct Newton iteration for .op point succeeded.
-Heightened Def Con from 6.52922e-008 +++++++++++++++++++++++++++++++++++++to 6.62942e-008
-Heightened Def Con from 6.62942e-008 +++++++++++++++++++++++to 6.72942e-008
-Heightened Def Con from 1.00041e-005 to 1.00241e-005
-Heightened Def Con from 1.00748e-005 ++++++++++++++++++++++++++++to 1.00752e-005
-Heightened Def Con from 1.00752e-005 ++++++++++++++++++to 1.00752e-005
-Heightened Def Con from 1.00752e-005 ++++to 1.00752e-005
+Heightened Def Con from 6.25021e-008 ++++++++++++++++++++++++++++++++++++to 6.25021e-008
+Heightened Def Con from 6.25021e-008 +++++++++++++++++++++++to 6.25021e-008
+Heightened Def Con from 1.00579e-005 ++++++++++++++++++++++++++++to 1.00583e-005
+Heightened Def Con from 1.00583e-005 ++++++++++++++++++to 1.00583e-005
+Heightened Def Con from 1.00583e-005 ++++to 1.00583e-005
+Heightened Def Con from 0.000100062 ++++++++++++++++++++++++++++++++++++to 0.000100062
+Heightened Def Con from 0.000100062 +++++++++++++++++++++++to 0.000100062
+Heightened Def Con from 0.000110056 to 0.000110057
+Heightened Def Con from 0.000110058 ++++++++++++++++++++++++++++to 0.000110058
+Heightened Def Con from 0.000110058 ++++++++++++++++++to 0.000110058
+Heightened Def Con from 0.000110058 ++++to 0.000110058
 
-Date: Tue May 14 21:25:16 2024
-Total elapsed time: 0.685 seconds.
+Date: Tue May 14 19:37:17 2024
+Total elapsed time: 0.876 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 82816
-traniter = 82783
-tranpoints = 16023
-accept = 11291
-rejected = 4848
+totiter = 41158
+traniter = 41126
+tranpoints = 8619
+accept = 6180
+rejected = 2668
 matrix size = 115
-fillins = 57
+fillins = 37
 solver = Normal
-Thread vector: 4.4/3.6[2] 1.2/1.1[1] 1.5/1.1[2] 0.2/0.4[1]  2592/500
-Matrix Compiler1: 5.43 KB object code size  1.1/0.5/[0.3]
-Matrix Compiler2: 8.26 KB object code size  0.5/1.0/[0.4]
+Thread vector: 9.4/8.2[2] 3.2/2.9[1] 3.2/2.2[2] 0.5/0.9[1]  2592/500
+Matrix Compiler1: 4.09 KB object code size  1.9/0.9/[0.6]
+Matrix Compiler2: 7.63 KB object code size  1.0/2.0/[0.7]
 
