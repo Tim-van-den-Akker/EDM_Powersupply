@@ -1,0 +1,25 @@
+Circuit: * C:\Users\joey2\Documents\3e jaar\BAP\Github\EDM_Powersupply\LTSpice\EDM_Powersupply\EDM_Powersupply_Lpara.asc
+
+WARNING: Node N001 is floating.
+
+WARNING: Less than two connections to node N002.  This node is used by D1.
+WARNING: Less than two connections to node N001.  This node is used by D1.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed May 22 09:37:50 2024
+Total elapsed time: 0.072 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 6958
+traniter = 6936
+tranpoints = 2473
+accept = 1983
+rejected = 490
+matrix size = 9
+fillins = 0
+solver = Normal
+Matrix Compiler1: 278 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 559 bytes object code size  0.1/0.2/[0.1]
+
