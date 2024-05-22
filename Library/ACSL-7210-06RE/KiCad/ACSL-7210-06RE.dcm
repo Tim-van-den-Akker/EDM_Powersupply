@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACSL-7210-06RE
+D OptoCoupler 2-CH 8-Pin SO Tube - Bulk Dual-Channel (Bidirectional) 25-MBd CMOS Buffered Input Digital Optocoupler
+K
+F https://docs.broadcom.com/docs/AV02-4235EN
+$ENDCMP
+#
+#End Doc Library
