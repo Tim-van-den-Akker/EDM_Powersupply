@@ -283,6 +283,168 @@
 				)
 			)
 		)
+		(symbol "Diode:1N4148"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers hide)
 			(pin_names
@@ -1068,16 +1230,32 @@
 		)
 	)
 	(junction
-		(at 166.37 67.31)
+		(at 166.37 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b7d9b318-14f6-4d46-a4c3-5f4fa7b472c1")
+		(uuid "46691773-e203-4061-9c39-ef7503cfee26")
+	)
+	(junction
+		(at 166.37 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7263a3f9-e722-46e7-a98e-18f43387cbb5")
 	)
 	(junction
 		(at 139.7 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eddd676b-cc41-471e-9a66-1211ea17ecb6")
+	)
+	(wire
+		(pts
+			(xy 166.37 76.2) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d475a7a-736b-4c4d-88bf-8710aecb8726")
 	)
 	(wire
 		(pts
@@ -1111,23 +1289,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 67.31) (xy 175.26 67.31)
+			(xy 166.37 53.34) (xy 166.37 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e34fc50-156b-4929-9774-6a27d2f7a4f4")
+		(uuid "63255777-fc78-421f-bf18-d63b967b49ca")
 	)
 	(wire
 		(pts
-			(xy 166.37 59.69) (xy 166.37 53.34)
+			(xy 179.07 72.39) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6050bcac-f09a-4773-8d78-fe1c31ddd90f")
+		(uuid "75c4e4e8-8df6-49e7-a450-5b885a781323")
 	)
 	(wire
 		(pts
@@ -1138,6 +1316,26 @@
 			(type default)
 		)
 		(uuid "873a690a-4853-4fbb-9071-263da654e1a4")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880f57d6-e422-4e0b-911e-ea64a14f6b23")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989a8ea8-7821-48a1-bfe6-c720e1e25f37")
 	)
 	(wire
 		(pts
@@ -1179,16 +1377,15 @@
 		)
 		(uuid "cb5f34cd-06fe-4e95-8e97-4b1ae71092f0")
 	)
-	(label "test"
-		(at 175.26 67.31 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
+	(wire
+		(pts
+			(xy 179.07 55.88) (xy 179.07 64.77)
 		)
-		(uuid "5f7859a4-e418-41b9-aad0-eab63235fecf")
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5669808-1929-49e5-a592-54eb488baff7")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
@@ -1375,7 +1572,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.64u"
+		(property "Value" "6.4u"
 			(at 167.64 72.3899 0)
 			(effects
 				(font
@@ -1643,7 +1840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=5 td=0 tr=2n tf=2n  tw=500n per=1000n"
+		(property "Sim.Params" "y1=0 y2=5 td=0 tr=2n tf=2n  tw=2u per=20u"
 			(at 123.3198 76.2 90)
 			(effects
 				(font
@@ -1938,6 +2135,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 179.07 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb11b0e9-5961-44da-888e-987ce15ae230")
+		(property "Reference" "D1"
+			(at 181.61 67.3099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 181.61 69.8499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e66a121-cef0-4a3d-84d5-3413053c21e9")
+		)
+		(pin "2"
+			(uuid "7929e1ca-4b3d-4034-a0e1-1ff86cf2ce5a")
+		)
+		(instances
+			(project "Mosfet_test"
+				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:VDC")
 		(at 160.02 53.34 270)
 		(unit 1)
@@ -1955,7 +2240,7 @@
 				)
 			)
 		)
-		(property "Value" "80"
+		(property "Value" "100"
 			(at 160.1498 48.26 90)
 			(effects
 				(font
