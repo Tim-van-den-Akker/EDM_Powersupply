@@ -5,6 +5,172 @@
 	(uuid "d48048dc-112f-48cd-b9ca-e7317887f716")
 	(paper "A4")
 	(lib_symbols
+<<<<<<< Updated upstream
+=======
+		(symbol "Device:D"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+>>>>>>> Stashed changes
 		(symbol "Device:L"
 			(pin_numbers hide)
 			(pin_names
@@ -1269,6 +1435,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 53.34) (xy 179.07 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c732558-9f87-4f3e-9187-c6b9ab061a0c")
+	)
+	(wire
+		(pts
 			(xy 166.37 86.36) (xy 166.37 93.98)
 		)
 		(stroke
@@ -1349,16 +1525,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 53.34) (xy 154.94 53.34)
+			(xy 162.56 53.34) (xy 166.37 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bd61345d-be45-4ab4-a378-60483ff78fd0")
+		(uuid "ca04bd80-ef9c-4815-aba5-cb71736f2591")
 	)
 	(wire
 		(pts
+<<<<<<< Updated upstream
 			(xy 166.37 74.93) (xy 166.37 76.2)
 		)
 		(stroke
@@ -1370,12 +1547,15 @@
 	(wire
 		(pts
 			(xy 165.1 53.34) (xy 166.37 53.34)
+=======
+			(xy 179.07 60.96) (xy 179.07 68.58)
+>>>>>>> Stashed changes
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cb5f34cd-06fe-4e95-8e97-4b1ae71092f0")
+		(uuid "cce9b404-7360-4825-a65e-0bb3bc671cd8")
 	)
 	(wire
 		(pts
@@ -1489,7 +1669,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 53.34 0)
+		(at 152.4 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1498,7 +1678,7 @@
 		(fields_autoplaced yes)
 		(uuid "214442b6-a0be-44dc-bdec-ff5c2aa56ac5")
 		(property "Reference" "#PWR03"
-			(at 151.13 59.69 0)
+			(at 152.4 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1507,7 +1687,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 58.42 0)
+			(at 152.4 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1515,7 +1695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 53.34 0)
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1524,7 +1704,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 53.34 0)
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1533,7 +1713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 53.34 0)
+			(at 152.4 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1691,7 +1871,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 166.37 63.5 0)
+		(at 166.37 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1700,7 +1880,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e57f24f-d1f4-4c66-9f51-da3be798f155")
 		(property "Reference" "R3"
-			(at 168.91 62.2299 0)
+			(at 168.91 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1709,7 +1889,7 @@
 			)
 		)
 		(property "Value" "10"
-			(at 168.91 64.7699 0)
+			(at 168.91 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1718,7 +1898,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 164.592 63.5 90)
+			(at 164.592 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1727,7 +1907,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 63.5 0)
+			(at 166.37 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1736,7 +1916,25 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 166.37 63.5 0)
+			(at 166.37 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 0 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=+ 2=-"
+			(at 0 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1754,6 +1952,94 @@
 			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 179.07 57.15 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b6ffb44-34a6-4255-8662-e8e0d087223c")
+		(property "Reference" "D1"
+			(at 181.61 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "D"
+			(at 181.61 58.4199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Diode"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b92569e0-7f1d-4454-bb14-7362d181cd23")
+		)
+		(pin "1"
+			(uuid "878eca47-5186-4f9b-b6f8-f9db85982d39")
+		)
+		(instances
+			(project "Mosfet_test"
+				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1840,6 +2126,7 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Params" "y1=0 y2=5 td=0 tr=2n tf=2n  tw=2u per=20u"
 		(property "Sim.Params" "y1=0 y2=5 td=0 tr=2n tf=2n  tw=2u per=20u"
 			(at 123.3198 76.2 90)
 			(effects
@@ -2018,7 +2305,7 @@
 				)
 			)
 		)
-		(property "Value" "10"
+		(property "Value" "1.2"
 			(at 132.08 77.47 90)
 			(effects
 				(font
@@ -2063,6 +2350,76 @@
 			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 166.37 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce783969-2169-4a35-b4e7-0c248696717a")
+		(property "Reference" "L1"
+			(at 167.64 63.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.4u"
+			(at 167.64 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 166.37 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e82afc99-4f0c-4d23-a98c-2c6d9c4bc9d3")
+		)
+		(pin "1"
+			(uuid "5dc74c7d-f985-4600-bc03-d6c2ee3d3bb8")
+		)
+		(instances
+			(project "Mosfet_test"
+				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -2224,7 +2581,7 @@
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:VDC")
-		(at 160.02 53.34 270)
+		(at 157.48 53.34 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2233,7 +2590,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb3dea88-d040-40e3-b00d-fd9659f9e983")
 		(property "Reference" "V2"
-			(at 160.1498 45.72 90)
+			(at 157.6098 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2249,7 +2606,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2258,7 +2615,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#sec_Independent_Sources_for"
-			(at 160.02 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2267,7 +2624,7 @@
 			)
 		)
 		(property "Description" "Voltage source, DC"
-			(at 160.02 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2276,7 +2633,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 160.02 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2642,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 160.02 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2294,7 +2651,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 160.02 53.34 0)
+			(at 157.48 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
