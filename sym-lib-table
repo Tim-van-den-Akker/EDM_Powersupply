@@ -4,4 +4,5 @@
   (lib (name "2024-05-08_20-03-09")(type "KiCad")(uri "C:/Users/joey2/Downloads/ul_STGAP2SICSN/KiCADv6/2024-05-08_20-03-09.kicad_sym")(options "")(descr ""))
   (lib (name "2024-05-09_09-23-31")(type "KiCad")(uri "${KIPRJMOD}/Library/UCC27537DBVR_gatedriver/2024-05-09_09-23-31.kicad_sym")(options "")(descr ""))
   (lib (name "ACSL-7210-06RE")(type "KiCad")(uri "${KIPRJMOD}/Library/ACSL-7210-06RE/KiCad/ACSL-7210-06RE.kicad_sym")(options "")(descr ""))
+  (lib (name "RASPBERRY_PI_PICO")(type "KiCad")(uri "${KIPRJMOD}/Library/RASPBERRY_PI_PICO/RASPBERRY_PI_PICO.kicad_sym")(options "")(descr ""))
 )

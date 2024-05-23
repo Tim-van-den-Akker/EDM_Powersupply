@@ -1,0 +1,16 @@
+.ESL225M250AE3AA :1 ;ESL, Aluminum, Aluminum Electrolytic, 2.2 uF, 20%, 250 VDC, -40/+105C, 105C, -40C, 105C, 8,000 Hrs, 15 % , 10.15 Ohms, 21 uA, 6, 6.3mm, 11mm, Lead Spacing = 2.5mm, 20mm, 10000
+CAPPRD250W50D630H1250
+*STM C
+*NGS
+*PLB 1="+" 2="-"
+*MXP 2
+*DFN ESL225M250AE3AA
+~!Mouser Part Number (80-ESL225M250AE3AA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/KEMET/ESL225M250AE3AA?qs=Wj%2FVkw3K%252BMBOyYSAJV1eVA%3D%3D)
+~!Manufacturer_Name (KEMET)
+~!Manufacturer_Part_Number (ESL225M250AE3AA)
+~!Link Datasheet (https://content.kemet.com/datasheets/KEM_A4074_ESL.pdf)
+~!Height (12.5mm)
+~!3D_Model (ESL225M250AE3AA)
+ESL225M250AE3AA
+1.1!U 2.1!U 

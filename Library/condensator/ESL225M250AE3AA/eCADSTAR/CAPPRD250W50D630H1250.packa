@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ESL225M250AE3AA"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-09-01-03:20:03)
+    (mountForm default
+        (footprintRef "CAPPRD250W50D630H1250")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+Manufacturer=Avago Technologies
+PartNumber=ACSL-7210-06RE
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=8
+Version=1.1
+Released=2020-06-18 07:53:38
+Downloaded=2024-05-22 15:57:54
+3D=Y

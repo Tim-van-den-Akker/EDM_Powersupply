@@ -1,0 +1,16 @@
+.ACSL-7210-06RE :1 ;OptoCoupler 2-CH 8-Pin SO Tube - Bulk Dual-Channel (Bidirectional) 25-MBd CMOS Buffered Input Digital Optocoupler
+SOIC127P600X175-8N
+*STM IC
+*NGS
+*PLB 1="VDD1" 2="VOA" 3="VI B" 4="GND 1" 5="GND 2" 6="VOB" 7="VI A" 8="VDD2"
+*MXP 8
+*DFN ACSL-7210-06RE
+~!Mouser Part Number (630-ACSL-7210-06RE)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/ACSL-7210-06RE?qs=3oHdzXquMOy6LsI3XOac9Q%3D%3D)
+~!Manufacturer_Name (Avago Technologies)
+~!Manufacturer_Part_Number (ACSL-7210-06RE)
+~!Link Datasheet (https://docs.broadcom.com/docs/AV02-4235EN)
+~!Height (1.75mm)
+~!3D_Model (ACSL-7210-06RE)
+ACSL-7210-06RE
+1.1!U 2.1!U 3.1!U 4.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
