@@ -1,0 +1,25 @@
+Circuit: * C:\Users\joey2\Documents\3e jaar\BAP\Github\EDM_Powersupply\LTSpice\EDM_Powersupply\EDM_Powersupply_kicad_test.asc
+
+Instance "m:m1:r": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:m1:r": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:m1:1": Width narrower than recommended for a level 3 MOSFET.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 1e-013 to 2.1e-009
+
+Date: Wed May 29 21:40:05 2024
+Total elapsed time: 0.294 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 24073
+traniter = 24051
+tranpoints = 11087
+accept = 10756
+rejected = 332
+matrix size = 23
+fillins = 6
+solver = Normal
+Matrix Compiler1: 1.93 KB object code size  0.9/0.4/[0.3]
+Matrix Compiler2: off  [0.3]/0.5/0.4
+
