@@ -818,7 +818,7 @@ Cgs     g2    s2    0.22n
 .PARAM Rs=100p      Rg=0.72      Ls=5n        Ld=3n        Lg=5n
 .PARAM act=66.19    Inn=33.1     Unn=10       Rmax=37m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -843,7 +843,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=0.82      Ls=5n        Ld=3n        Lg=5n
 .PARAM act=35.13    Inn=17.6     Unn=10       Rmax=70m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -868,7 +868,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=0.82      Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=27.72    Inn=13.9     Unn=10       Rmax=74m
 
-X1  dd g s Tj Tj cool_650_i240_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i240_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -893,7 +893,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=1.72      Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=25.62    Inn=12.8     Unn=10       Rmax=99m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -918,7 +918,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=8.5       Ls=5n        Ld=3n        Lg=5n
 .PARAM act=14.67    Inn=7.3      Unn=10       Rmax=190m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -943,7 +943,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=8.5       Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=14.67    Inn=7.3      Unn=10       Rmax=190m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -968,7 +968,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=8.5       Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=14.67    Inn=7.3      Unn=10       Rmax=190m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -993,7 +993,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=12.5      Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=8.79     Inn=4.4      Unn=10       Rmax=280m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1018,7 +1018,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=12.5      Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=8.79     Inn=4.4      Unn=10       Rmax=280m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1043,7 +1043,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=12.5      Ls=5n        Ld=3n        Lg=5n
 .PARAM act=8.79     Inn=4.4      Unn=10       Rmax=280m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1068,7 +1068,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=17        Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=6.34     Inn=3.2      Unn=10       Rmax=380m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1093,7 +1093,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=17        Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=6.34     Inn=3.2      Unn=10       Rmax=380m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1118,7 +1118,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=17        Ls=2n        Ld=1n        Lg=3n
 .PARAM act=6.34     Inn=3.2      Unn=10       Rmax=380m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1143,7 +1143,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=17.5      Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=600m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1168,7 +1168,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=17.5      Ls=2.5n      Ld=2.5n      Lg=4n
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=600m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1193,7 +1193,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=17.5      Ls=2n        Ld=1n        Lg=3n
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=600m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1218,7 +1218,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=17.5      Ls=2n        Ld=1n        Lg=4n
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=650m
 
-X1  dd g s Tj Tj cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1243,7 +1243,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=7.18      Ls=2n        Ld=1n        Lg=3n
 .PARAM act=2.97     Inn=1.5      Unn=10       Rmax=950m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1268,7 +1268,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=7.18      Ls=2n        Ld=1n        Lg=4n
 .PARAM act=2.97     Inn=1.5      Unn=10       Rmax=1000m
 
-X1  dd g s Tj Tj cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1293,7 +1293,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=7.18      Ls=2n        Ld=1n        Lg=3n
 .PARAM act=2.04     Inn=1.0      Unn=10       Rmax=1400m
 
-X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1318,7 +1318,7 @@ R1    w      0      1u
 .PARAM Rs=2m        Rg=7.18      Ls=2n        Ld=1n        Lg=4n
 .PARAM act=2.04     Inn=1.0      Unn=10       Rmax=1500m
 
-X1  dd g s Tj Tj cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj Tj cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=0
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1344,7 +1344,7 @@ R1    w      0      1u
 .PARAM act=66.19    Inn=33.1     Unn=10       Rmax=37m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1383,7 +1383,7 @@ R_Rth7       6      7     6.3
 .PARAM act=35.13    Inn=17.6     Unn=10       Rmax=70m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1422,7 +1422,7 @@ R_Rth7       6      7     6.3
 .PARAM act=27.72    Inn=13.9     Unn=10       Rmax=74m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i240_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i240_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1461,7 +1461,7 @@ R_Rth7       6      7     15.8
 .PARAM act=25.62    Inn=12.8     Unn=10       Rmax=99m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1500,7 +1500,7 @@ R_Rth7       6      7     15.8
 .PARAM act=14.67    Inn=7.3      Unn=10       Rmax=190m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1539,7 +1539,7 @@ R_Rth7       6      7     6.3
 .PARAM act=14.67    Inn=7.3      Unn=10       Rmax=190m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1578,7 +1578,7 @@ R_Rth7       6      7     15.8
 .PARAM act=14.67    Inn=7.3      Unn=10       Rmax=190m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1617,7 +1617,7 @@ R_Rth8       5      Tcase {2.1+lzth*1.04}
 .PARAM act=8.79     Inn=4.4      Unn=10       Rmax=280m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1656,7 +1656,7 @@ R_Rth7       6      7     15.8
 .PARAM act=8.79     Inn=4.4      Unn=10       Rmax=280m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1695,7 +1695,7 @@ R_Rth8       5      Tcase {2.1+lzth*943.26m}
 .PARAM act=8.79     Inn=4.4      Unn=10       Rmax=280m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1734,7 +1734,7 @@ R_Rth7       6      7     6.3
 .PARAM act=6.34     Inn=3.2      Unn=10       Rmax=380m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1773,7 +1773,7 @@ R_Rth7       6      7     15.8
 .PARAM act=6.34     Inn=3.2      Unn=10       Rmax=380m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1812,7 +1812,7 @@ R_Rth8       5      Tcase {2.1+lzth*809.87m}
 .PARAM act=6.34     Inn=3.2      Unn=10       Rmax=380m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1851,7 +1851,7 @@ R_Rth7       6      7     50
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=600m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1890,7 +1890,7 @@ R_Rth7       6      7     15.8
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=600m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1929,7 +1929,7 @@ R_Rth8       5      Tcase {2.1+lzth*828.37m}
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=600m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -1968,7 +1968,7 @@ R_Rth7       6      7     50
 .PARAM act=4.02     Inn=2.0      Unn=10       Rmax=650m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -2007,7 +2007,7 @@ R_Rth7       6      7     50
 .PARAM act=2.97     Inn=1.5      Unn=10       Rmax=950m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -2046,7 +2046,7 @@ R_Rth7       6      7     50
 .PARAM act=2.97     Inn=1.5      Unn=10       Rmax=1000m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -2085,7 +2085,7 @@ R_Rth7       6      7     50
 .PARAM act=2.04     Inn=1.0      Unn=10       Rmax=1400m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -2124,7 +2124,7 @@ R_Rth7       6      7     50
 .PARAM act=2.04     Inn=1.0      Unn=10       Rmax=1500m
 .PARAM lzth={limit(Zthtype,0,1)}
 
-X1  dd g s Tj 1 cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn} 
+X1  dd g s Tj 1 cool_650_i280s_var PARAMS: act={act} dVth={dVth} dR={dRdson} Inn={Inn} Unn={Unn}
                                         +Rmax={Rmax} Rs={Rs} heat=1
 L_Ld         drain  dd    {Ld}
 R_Ld         drain  dd    10
@@ -2157,26 +2157,26 @@ R_Rth7       6      7     50
 
 **********
 
-.SUBCKT cool_650_i280_var dd g s Tj t1 PARAMS: act=1 dVth=0 dR=0 Inn=1u Unn=10 Rmax=1 Rs=1u heat=1 
+.SUBCKT cool_650_i280_var dd g s Tj t1 PARAMS: act=1 dVth=0 dR=0 Inn=1u Unn=10 Rmax=1 Rs=1u heat=1
 *
 .PARAM  p666={4*SQRT(act)}
 *
 .PARAM Vth0=3.7
-.PARAM Vmin=2.8     Vmax=4.7      
+.PARAM Vmin=2.8     Vmax=4.7
 *
-.PARAM fpar1=0.1265    fpar2=1.2825    
+.PARAM fpar1=0.1265    fpar2=1.2825
 .PARAM fpar29=300           Tref=273        fpar3=4.7m
 .PARAM fpar4=600m       fpar6=750
 .PARAM fpar7=207m      fpar9=4
 .PARAM fpar10=2.89        tt=400n
-.PARAM fpar12=1.1          fpar13={1.97/act}  fpar14={48m/act}   fpar15=13 
+.PARAM fpar12=1.1          fpar13={1.97/act}  fpar14={48m/act}   fpar15=13
 .PARAM fpar16=-0.008   fpar17 =0.1
 .PARAM fpar18=85.8u       fpar19=-29        fpar20=1.08         fpar21={Exp(fpar19)}
 .PARAM fpar22={1.845*act}
 .PARAM fpar23=0.91
-.PARAM loge=0.43429448                       
+.PARAM loge=0.43429448
 *
-.PARAM muth=1.08375                     
+.PARAM muth=1.08375
 *
 .PARAM Vth={Vth0+(Vmax-Vth0)*LIMIT(dVth,0,1)-(Vmin-Vth0)*LIMIT(dVth,-1,0)}
 .PARAM p1={Unn-Inn*Rs-Vth0}
@@ -2196,10 +2196,10 @@ G_G1 d s VALUE={fpar27(V(d,s),V(g,s),Tref+LIMIT(V(Tj),-200,999))}
 Rd01 d s 500Meg
 *
 V_Ichannel d1 d 0
-V_Iepi     dd d2 0  
+V_Iepi     dd d2 0
 *
-G_G_Rd     d2 d1 VALUE 
-+ {V(d2,d1)/( 
+G_G_Rd     d2 d1 VALUE
++ {V(d2,d1)/(
 + (1-fpar17)
 + *((dRd*0.5*(1+SQRT(1+4*(MAX(V(d2,d1),0)/fpar15)**(LIMIT(2+fpar16*(V(t1)+Tref-fpar29),0,3)))))
 + *((Tref+LIMIT(V(t1),-200,999))/fpar29)**fpar10)
@@ -2221,7 +2221,7 @@ V_Idio     dio  di 0
 
 *Capacitance model:
 *Cgd
-.PARAM  cgdvgg=-0.1            cgducut=100 
+.PARAM  cgdvgg=-0.1            cgducut=100
 .PARAM  cgda1={130p*act}    cgdb1=-1.7                 cgdC1_0={cgda1*EXP(cgdb1*cgdvgg)}
 .PARAM  cgda2={80p*act}     cgdb2=-0.12                cgdC2_0={cgda2*EXP(cgdb2*cgdvgg)}
 .PARAM  cgda3={4p*act}      cgdb3=-4      cgdc3=40     cgdC3_0={1/2*cgda3*(1+TANH((cgdvgg-cgdc3)/cgdb3))}
@@ -2242,17 +2242,17 @@ V_Idio     dio  di 0
 .PARAM  cgs={act*110p}
 
 
-.FUNC     cgdQges1(U)    {cgda1/cgdb1 * (EXP(cgdb1*U)-1)} 
-.FUNC     cgdQges2(U)    {cgda2/cgdb2 * (EXP(cgdb2*U)-1)} 
-.FUNC     cgdQges3(U)    {IF (U< cgducut, cgda3*U/2 + 1/2*cgda3*cgdb3*LOG10(COSH((U-cgdc3)/cgdb3))/loge 
-+                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge, 
-+                         cgda3*cgducut/2 + 1/2*cgda3*cgdb3*LOG10(COSH((cgducut-cgdc3)/cgdb3))/loge 
-+                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge)}  
-.FUNC     cgdQges4(U)    {cgda4*U/2 + 1/2*cgda4*cgdb4*LOG10(COSH((U-cgdc4)/cgdb4))/loge 
-+                         - 1/2*cgda4*cgdb4*LOG10(COSH((-cgdc4)/cgdb4))/loge}  
+.FUNC     cgdQges1(U)    {cgda1/cgdb1 * (EXP(cgdb1*U)-1)}
+.FUNC     cgdQges2(U)    {cgda2/cgdb2 * (EXP(cgdb2*U)-1)}
+.FUNC     cgdQges3(U)    {IF (U< cgducut, cgda3*U/2 + 1/2*cgda3*cgdb3*LOG10(COSH((U-cgdc3)/cgdb3))/loge
++                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge,
++                         cgda3*cgducut/2 + 1/2*cgda3*cgdb3*LOG10(COSH((cgducut-cgdc3)/cgdb3))/loge
++                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge)}
+.FUNC     cgdQges4(U)    {cgda4*U/2 + 1/2*cgda4*cgdb4*LOG10(COSH((U-cgdc4)/cgdb4))/loge
++                         - 1/2*cgda4*cgdb4*LOG10(COSH((-cgdc4)/cgdb4))/loge}
 .FUNC     cgdQges5(U)    {cgda5*U}
-.FUNC     cgdQges6(U)    {cgda6*U/2 + 1/2*cgda6*cgdb6*LOG10(COSH((U-cgdc6)/cgdb6))/loge 
-+                         - 1/2*cgda6*cgdb6*LOG10(COSH((-cgdc6)/cgdb6))/loge}  
+.FUNC     cgdQges6(U)    {cgda6*U/2 + 1/2*cgda6*cgdb6*LOG10(COSH((U-cgdc6)/cgdb6))/loge
++                         - 1/2*cgda6*cgdb6*LOG10(COSH((-cgdc6)/cgdb6))/loge}
 
 
 *Cgd with voltage source
@@ -2274,17 +2274,17 @@ E6cgd    cgdhigh   cgdnint6  VALUE { MAX(V(cgdhigh,cgdlow),cgdvgg) - cgdQges6(MA
 C6cgd    cgdnint6  cgdlow   {cgdC6_0}
 *
 
-.FUNC     cdsQges1(U)    {cdsa1/cdsb1 * (EXP(cdsb1*U)-1)} 
-.FUNC     cdsQges2(U)    {cdsa2/cdsb2 * (EXP(cdsb2*U)-1)} 
-.FUNC     cdsQges3(U)    {IF (U<cdsucut, cdsa3*U/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((U-cdsc3)/cdsb3))/loge 
-+                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge, 
-+                         cdsa3*cdsucut/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((cdsucut-cdsc3)/cdsb3))/loge 
-+                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge)}  
-.FUNC     cdsQges4(U)    {cdsa4*U/2 + 1/2*cdsa4*cdsb4*LOG10(COSH((U-cdsc4)/cdsb4))/loge 
-+                         - 1/2*cdsa4*cdsb4*LOG10(COSH((-cdsc4)/cdsb4))/loge}  
+.FUNC     cdsQges1(U)    {cdsa1/cdsb1 * (EXP(cdsb1*U)-1)}
+.FUNC     cdsQges2(U)    {cdsa2/cdsb2 * (EXP(cdsb2*U)-1)}
+.FUNC     cdsQges3(U)    {IF (U<cdsucut, cdsa3*U/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((U-cdsc3)/cdsb3))/loge
++                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge,
++                         cdsa3*cdsucut/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((cdsucut-cdsc3)/cdsb3))/loge
++                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge)}
+.FUNC     cdsQges4(U)    {cdsa4*U/2 + 1/2*cdsa4*cdsb4*LOG10(COSH((U-cdsc4)/cdsb4))/loge
++                         - 1/2*cdsa4*cdsb4*LOG10(COSH((-cdsc4)/cdsb4))/loge}
 .FUNC     cdsQges5(U)    {cdsa5*U}
-.FUNC     cdsQges6(U)    {cdsa6*U/2 + 1/2*cdsa6*cdsb6*LOG10(COSH((U-cdsc6)/cdsb6))/loge 
-+                         - 1/2*cdsa6*cdsb6*LOG10(COSH((-cdsc6)/cdsb6))/loge}  
+.FUNC     cdsQges6(U)    {cdsa6*U/2 + 1/2*cdsa6*cdsb6*LOG10(COSH((U-cdsc6)/cdsb6))/loge
++                         - 1/2*cdsa6*cdsb6*LOG10(COSH((-cdsc6)/cdsb6))/loge}
 
 
 *Cds with voltage source
@@ -2325,26 +2325,26 @@ G_G_Ptot_Epi     0 t1 VALUE {heat*(LIMIT(V(dd,d1)*I(V_Iepi),0,100k)+LIMIT(V(dd,d
 *
 **********
 
-.SUBCKT cool_650_i280s_var dd g s Tj t1 PARAMS: act=1 dVth=0 dR=0 Inn=1u Unn=10 Rmax=1 Rs=1u heat=1 
+.SUBCKT cool_650_i280s_var dd g s Tj t1 PARAMS: act=1 dVth=0 dR=0 Inn=1u Unn=10 Rmax=1 Rs=1u heat=1
 *
 .PARAM  p666={4*SQRT(act)}
 *
 .PARAM Vth0=3.7
-.PARAM Vmin=2.8     Vmax=4.7      
+.PARAM Vmin=2.8     Vmax=4.7
 *
-.PARAM fpar1=0.1265    fpar2=1.2825    
+.PARAM fpar1=0.1265    fpar2=1.2825
 .PARAM fpar29=300           Tref=273        fpar3=4.7m
 .PARAM fpar4=600m       fpar6=750
 .PARAM fpar7=207m      fpar9=4
 .PARAM fpar10=2.89        tt=400n
-.PARAM fpar12=1.1          fpar13={1.97/act}  fpar14={48m/act}   fpar15=13 
+.PARAM fpar12=1.1          fpar13={1.97/act}  fpar14={48m/act}   fpar15=13
 .PARAM fpar16=-0.008   fpar17 =0.1
 .PARAM fpar18=85.8u       fpar19=-29        fpar20=1.08         fpar21={Exp(fpar19)}
 .PARAM fpar22={1.845*act}
 .PARAM fpar23=0.91
-.PARAM loge=0.43429448                       
+.PARAM loge=0.43429448
 *
-.PARAM muth=1.08375                     
+.PARAM muth=1.08375
 *
 .PARAM Vth={Vth0+(Vmax-Vth0)*LIMIT(dVth,0,1)-(Vmin-Vth0)*LIMIT(dVth,-1,0)}
 .PARAM p1={Unn-Inn*Rs-Vth0}
@@ -2364,10 +2364,10 @@ G_G1 d s VALUE={fpar27(V(d,s),V(g,s),Tref+LIMIT(V(Tj),-200,999))}
 Rd01 d s 500Meg
 *
 V_Ichannel d1 d 0
-V_Iepi     dd d2 0  
+V_Iepi     dd d2 0
 *
-G_G_Rd     d2 d1 VALUE 
-+ {V(d2,d1)/( 
+G_G_Rd     d2 d1 VALUE
++ {V(d2,d1)/(
 + (1-fpar17)
 + *((dRd*0.5*(1+SQRT(1+4*(MAX(V(d2,d1),0)/fpar15)**(LIMIT(2+fpar16*(V(t1)+Tref-fpar29),0,3)))))
 + *((Tref+LIMIT(V(t1),-200,999))/fpar29)**fpar10)
@@ -2389,7 +2389,7 @@ V_Idio     dio  di 0
 
 *Capacitance model:
 *Cgd
-.PARAM  cgdvgg=-0.1            cgducut=100 
+.PARAM  cgdvgg=-0.1            cgducut=100
 .PARAM  cgda1={130p*act}    cgdb1=-1.7                 cgdC1_0={cgda1*EXP(cgdb1*cgdvgg)}
 .PARAM  cgda2={80p*act}     cgdb2=-0.12                cgdC2_0={cgda2*EXP(cgdb2*cgdvgg)}
 .PARAM  cgda3={4p*act}      cgdb3=-4      cgdc3=40     cgdC3_0={1/2*cgda3*(1+TANH((cgdvgg-cgdc3)/cgdb3))}
@@ -2410,17 +2410,17 @@ V_Idio     dio  di 0
 .PARAM  cgs={act*110p}
 
 
-.FUNC     cgdQges1(U)    {cgda1/cgdb1 * (EXP(cgdb1*U)-1)} 
-.FUNC     cgdQges2(U)    {cgda2/cgdb2 * (EXP(cgdb2*U)-1)} 
-.FUNC     cgdQges3(U)    {IF (U< cgducut, cgda3*U/2 + 1/2*cgda3*cgdb3*LOG10(COSH((U-cgdc3)/cgdb3))/loge 
-+                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge, 
-+                         cgda3*cgducut/2 + 1/2*cgda3*cgdb3*LOG10(COSH((cgducut-cgdc3)/cgdb3))/loge 
-+                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge)}  
-.FUNC     cgdQges4(U)    {cgda4*U/2 + 1/2*cgda4*cgdb4*LOG10(COSH((U-cgdc4)/cgdb4))/loge 
-+                         - 1/2*cgda4*cgdb4*LOG10(COSH((-cgdc4)/cgdb4))/loge}  
+.FUNC     cgdQges1(U)    {cgda1/cgdb1 * (EXP(cgdb1*U)-1)}
+.FUNC     cgdQges2(U)    {cgda2/cgdb2 * (EXP(cgdb2*U)-1)}
+.FUNC     cgdQges3(U)    {IF (U< cgducut, cgda3*U/2 + 1/2*cgda3*cgdb3*LOG10(COSH((U-cgdc3)/cgdb3))/loge
++                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge,
++                         cgda3*cgducut/2 + 1/2*cgda3*cgdb3*LOG10(COSH((cgducut-cgdc3)/cgdb3))/loge
++                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge)}
+.FUNC     cgdQges4(U)    {cgda4*U/2 + 1/2*cgda4*cgdb4*LOG10(COSH((U-cgdc4)/cgdb4))/loge
++                         - 1/2*cgda4*cgdb4*LOG10(COSH((-cgdc4)/cgdb4))/loge}
 .FUNC     cgdQges5(U)    {cgda5*U}
-.FUNC     cgdQges6(U)    {cgda6*U/2 + 1/2*cgda6*cgdb6*LOG10(COSH((U-cgdc6)/cgdb6))/loge 
-+                         - 1/2*cgda6*cgdb6*LOG10(COSH((-cgdc6)/cgdb6))/loge}  
+.FUNC     cgdQges6(U)    {cgda6*U/2 + 1/2*cgda6*cgdb6*LOG10(COSH((U-cgdc6)/cgdb6))/loge
++                         - 1/2*cgda6*cgdb6*LOG10(COSH((-cgdc6)/cgdb6))/loge}
 
 
 *Cgd with voltage source
@@ -2442,17 +2442,17 @@ E6cgd    cgdhigh   cgdnint6  VALUE { MAX(V(cgdhigh,cgdlow),cgdvgg) - cgdQges6(MA
 C6cgd    cgdnint6  cgdlow   {cgdC6_0}
 *
 
-.FUNC     cdsQges1(U)    {cdsa1/cdsb1 * (EXP(cdsb1*U)-1)} 
-.FUNC     cdsQges2(U)    {cdsa2/cdsb2 * (EXP(cdsb2*U)-1)} 
-.FUNC     cdsQges3(U)    {IF (U<cdsucut, cdsa3*U/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((U-cdsc3)/cdsb3))/loge 
-+                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge, 
-+                         cdsa3*cdsucut/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((cdsucut-cdsc3)/cdsb3))/loge 
-+                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge)}  
-.FUNC     cdsQges4(U)    {cdsa4*U/2 + 1/2*cdsa4*cdsb4*LOG10(COSH((U-cdsc4)/cdsb4))/loge 
-+                         - 1/2*cdsa4*cdsb4*LOG10(COSH((-cdsc4)/cdsb4))/loge}  
+.FUNC     cdsQges1(U)    {cdsa1/cdsb1 * (EXP(cdsb1*U)-1)}
+.FUNC     cdsQges2(U)    {cdsa2/cdsb2 * (EXP(cdsb2*U)-1)}
+.FUNC     cdsQges3(U)    {IF (U<cdsucut, cdsa3*U/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((U-cdsc3)/cdsb3))/loge
++                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge,
++                         cdsa3*cdsucut/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((cdsucut-cdsc3)/cdsb3))/loge
++                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge)}
+.FUNC     cdsQges4(U)    {cdsa4*U/2 + 1/2*cdsa4*cdsb4*LOG10(COSH((U-cdsc4)/cdsb4))/loge
++                         - 1/2*cdsa4*cdsb4*LOG10(COSH((-cdsc4)/cdsb4))/loge}
 .FUNC     cdsQges5(U)    {cdsa5*U}
-.FUNC     cdsQges6(U)    {cdsa6*U/2 + 1/2*cdsa6*cdsb6*LOG10(COSH((U-cdsc6)/cdsb6))/loge 
-+                         - 1/2*cdsa6*cdsb6*LOG10(COSH((-cdsc6)/cdsb6))/loge}  
+.FUNC     cdsQges6(U)    {cdsa6*U/2 + 1/2*cdsa6*cdsb6*LOG10(COSH((U-cdsc6)/cdsb6))/loge
++                         - 1/2*cdsa6*cdsb6*LOG10(COSH((-cdsc6)/cdsb6))/loge}
 
 
 *Cds with voltage source
@@ -2493,26 +2493,26 @@ G_G_Ptot_Epi     0 t1 VALUE {heat*(LIMIT(V(dd,d1)*I(V_Iepi),0,100k)+LIMIT(V(dd,d
 *
 **********
 
-.SUBCKT cool_650_i240_var dd g s Tj t1 PARAMS: act=1 dVth=0 dR=0 Inn=1u Unn=10 Rmax=1 Rs=1u heat=1 
+.SUBCKT cool_650_i240_var dd g s Tj t1 PARAMS: act=1 dVth=0 dR=0 Inn=1u Unn=10 Rmax=1 Rs=1u heat=1
 *
 .PARAM  p666={4*SQRT(act)}
 *
 .PARAM Vth0=3.7
-.PARAM Vmin=2.8     Vmax=4.7      
+.PARAM Vmin=2.8     Vmax=4.7
 *
-.PARAM fpar1=0.1265    fpar2=1.2825    
+.PARAM fpar1=0.1265    fpar2=1.2825
 .PARAM fpar29=300           Tref=273        fpar3=4.7m
 .PARAM fpar4=600m       fpar6=750
 .PARAM fpar7=207m      fpar9=4
 .PARAM fpar10=2.89        tt=400n
-.PARAM fpar12=1.1          fpar13={1.576/act}  fpar14={24m/act}   fpar15=11.5 
+.PARAM fpar12=1.1          fpar13={1.576/act}  fpar14={24m/act}   fpar15=11.5
 .PARAM fpar16=-0.008   fpar17 =0.1
 .PARAM fpar18=85.8u       fpar19=-29        fpar20=1.08         fpar21={Exp(fpar19)}
 .PARAM fpar22={1.845*act}
 .PARAM fpar23=0.91
-.PARAM loge=0.43429448                       
+.PARAM loge=0.43429448
 *
-.PARAM muth=1.08375                     
+.PARAM muth=1.08375
 *
 .PARAM Vth={Vth0+(Vmax-Vth0)*LIMIT(dVth,0,1)-(Vmin-Vth0)*LIMIT(dVth,-1,0)}
 .PARAM p1={Unn-Inn*Rs-Vth0}
@@ -2532,10 +2532,10 @@ G_G1 d s VALUE={fpar27(V(d,s),V(g,s),Tref+LIMIT(V(Tj),-200,999))}
 Rd01 d s 500Meg
 *
 V_Ichannel d1 d 0
-V_Iepi     dd d2 0  
+V_Iepi     dd d2 0
 *
-G_G_Rd     d2 d1 VALUE 
-+ {V(d2,d1)/( 
+G_G_Rd     d2 d1 VALUE
++ {V(d2,d1)/(
 + (1-fpar17)
 + *((dRd*0.5*(1+SQRT(1+4*(MAX(V(d2,d1),0)/fpar15)**(LIMIT(2+fpar16*(V(t1)+Tref-fpar29),0,3)))))
 + *((Tref+LIMIT(V(t1),-200,999))/fpar29)**fpar10)
@@ -2557,7 +2557,7 @@ V_Idio     dio  di 0
 
 *Capacitance model:
 *Cgd
-.PARAM  cgdvgg=-0.1            cgducut=100 
+.PARAM  cgdvgg=-0.1            cgducut=100
 .PARAM  cgda1={130p*act}    cgdb1=-1.7                 cgdC1_0={cgda1*EXP(cgdb1*cgdvgg)}
 .PARAM  cgda2={80p*act}     cgdb2=-0.12                cgdC2_0={cgda2*EXP(cgdb2*cgdvgg)}
 .PARAM  cgda3={4p*act}      cgdb3=-4      cgdc3=40     cgdC3_0={1/2*cgda3*(1+TANH((cgdvgg-cgdc3)/cgdb3))}
@@ -2578,17 +2578,17 @@ V_Idio     dio  di 0
 .PARAM  cgs={act*110p}
 
 
-.FUNC     cgdQges1(U)    {cgda1/cgdb1 * (EXP(cgdb1*U)-1)} 
-.FUNC     cgdQges2(U)    {cgda2/cgdb2 * (EXP(cgdb2*U)-1)} 
-.FUNC     cgdQges3(U)    {IF (U< cgducut, cgda3*U/2 + 1/2*cgda3*cgdb3*LOG10(COSH((U-cgdc3)/cgdb3))/loge 
-+                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge, 
-+                         cgda3*cgducut/2 + 1/2*cgda3*cgdb3*LOG10(COSH((cgducut-cgdc3)/cgdb3))/loge 
-+                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge)}  
-.FUNC     cgdQges4(U)    {cgda4*U/2 + 1/2*cgda4*cgdb4*LOG10(COSH((U-cgdc4)/cgdb4))/loge 
-+                         - 1/2*cgda4*cgdb4*LOG10(COSH((-cgdc4)/cgdb4))/loge}  
+.FUNC     cgdQges1(U)    {cgda1/cgdb1 * (EXP(cgdb1*U)-1)}
+.FUNC     cgdQges2(U)    {cgda2/cgdb2 * (EXP(cgdb2*U)-1)}
+.FUNC     cgdQges3(U)    {IF (U< cgducut, cgda3*U/2 + 1/2*cgda3*cgdb3*LOG10(COSH((U-cgdc3)/cgdb3))/loge
++                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge,
++                         cgda3*cgducut/2 + 1/2*cgda3*cgdb3*LOG10(COSH((cgducut-cgdc3)/cgdb3))/loge
++                         - 1/2*cgda3*cgdb3*LOG10(COSH((-cgdc3)/cgdb3))/loge)}
+.FUNC     cgdQges4(U)    {cgda4*U/2 + 1/2*cgda4*cgdb4*LOG10(COSH((U-cgdc4)/cgdb4))/loge
++                         - 1/2*cgda4*cgdb4*LOG10(COSH((-cgdc4)/cgdb4))/loge}
 .FUNC     cgdQges5(U)    {cgda5*U}
-.FUNC     cgdQges6(U)    {cgda6*U/2 + 1/2*cgda6*cgdb6*LOG10(COSH((U-cgdc6)/cgdb6))/loge 
-+                         - 1/2*cgda6*cgdb6*LOG10(COSH((-cgdc6)/cgdb6))/loge}  
+.FUNC     cgdQges6(U)    {cgda6*U/2 + 1/2*cgda6*cgdb6*LOG10(COSH((U-cgdc6)/cgdb6))/loge
++                         - 1/2*cgda6*cgdb6*LOG10(COSH((-cgdc6)/cgdb6))/loge}
 
 
 *Cgd with voltage source
@@ -2610,17 +2610,17 @@ E6cgd    cgdhigh   cgdnint6  VALUE { MAX(V(cgdhigh,cgdlow),cgdvgg) - cgdQges6(MA
 C6cgd    cgdnint6  cgdlow   {cgdC6_0}
 *
 
-.FUNC     cdsQges1(U)    {cdsa1/cdsb1 * (EXP(cdsb1*U)-1)} 
-.FUNC     cdsQges2(U)    {cdsa2/cdsb2 * (EXP(cdsb2*U)-1)} 
-.FUNC     cdsQges3(U)    {IF (U<cdsucut, cdsa3*U/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((U-cdsc3)/cdsb3))/loge 
-+                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge, 
-+                         cdsa3*cdsucut/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((cdsucut-cdsc3)/cdsb3))/loge 
-+                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge)}  
-.FUNC     cdsQges4(U)    {cdsa4*U/2 + 1/2*cdsa4*cdsb4*LOG10(COSH((U-cdsc4)/cdsb4))/loge 
-+                         - 1/2*cdsa4*cdsb4*LOG10(COSH((-cdsc4)/cdsb4))/loge}  
+.FUNC     cdsQges1(U)    {cdsa1/cdsb1 * (EXP(cdsb1*U)-1)}
+.FUNC     cdsQges2(U)    {cdsa2/cdsb2 * (EXP(cdsb2*U)-1)}
+.FUNC     cdsQges3(U)    {IF (U<cdsucut, cdsa3*U/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((U-cdsc3)/cdsb3))/loge
++                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge,
++                         cdsa3*cdsucut/2 + 1/2*cdsa3*cdsb3*LOG10(COSH((cdsucut-cdsc3)/cdsb3))/loge
++                         - 1/2*cdsa3*cdsb3*LOG10(COSH((-cdsc3)/cdsb3))/loge)}
+.FUNC     cdsQges4(U)    {cdsa4*U/2 + 1/2*cdsa4*cdsb4*LOG10(COSH((U-cdsc4)/cdsb4))/loge
++                         - 1/2*cdsa4*cdsb4*LOG10(COSH((-cdsc4)/cdsb4))/loge}
 .FUNC     cdsQges5(U)    {cdsa5*U}
-.FUNC     cdsQges6(U)    {cdsa6*U/2 + 1/2*cdsa6*cdsb6*LOG10(COSH((U-cdsc6)/cdsb6))/loge 
-+                         - 1/2*cdsa6*cdsb6*LOG10(COSH((-cdsc6)/cdsb6))/loge}  
+.FUNC     cdsQges6(U)    {cdsa6*U/2 + 1/2*cdsa6*cdsb6*LOG10(COSH((U-cdsc6)/cdsb6))/loge
++                         - 1/2*cdsa6*cdsb6*LOG10(COSH((-cdsc6)/cdsb6))/loge}
 
 
 *Cds with voltage source
