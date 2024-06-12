@@ -50,7 +50,7 @@ Rd     d2    d1a    0.026 TC=15m
 .MODEL MVDR NMOS (KP=250.86 VTO=-1   LAMBDA=0.2)
 Mr d1 d2a d1a d1a MVDR W=1u L=1u
 Rx d2a d1a 1m
-Cds1 s2 d2 218.4p
+Cds1 s2 d2 7.1n
 Dbd     s2    d2    Dbt
 .MODEL     Dbt    D(BV=650   M=0.9  CJO=86.71n  VJ=0.5V)
 Dbody   s2   21    DBODY
@@ -67,7 +67,7 @@ Cox       b    d2   15.03n
 Rpar      b    d2   1Meg
 Dgd       a    d2   DGD
 Rpar2     d2   a    10Meg
-Cgs     g2    s2    7.28n
+Cgs     g2    s2    7.1n
 
 .ENDS  IPW65R037C6_L0
 
