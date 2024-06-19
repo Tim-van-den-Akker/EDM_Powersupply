@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ACSL-7210-06RE"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-06-18-07:53:38)
+    (mountForm default
+        (footprintRef "SOIC127P600X175-8N")
+        (spec "System")
+    )
+)

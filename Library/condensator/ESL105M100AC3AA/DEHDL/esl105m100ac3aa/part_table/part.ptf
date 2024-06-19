@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ESL105M100AC3AA'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "KEMET", "ESL105M100AC3AA" (!) = "", "CAPPRD200W50D500H1250", "Capacitor, Polarized Radial Diameter", "80-ESL105M100AC3AA", "https://www.mouser.co.uk/ProductDetail/KEMET/ESL105M100AC3AA?qs=HXFqYaX1Q2x0RWu%2FYCFzZA%3D%3D", "ESL, Aluminum, Aluminum Electrolytic, 1 uF, 20%, 100 VDC, -40/+105C, 105C, -40C, 105C, 8,000 Hrs, 9 % , 1.85 Ohms, 3 uA, 3, 4, 5mm, 11mm, Lead Spacing = 2mm, 20mm, 10000", "https://content.kemet.com/datasheets/KEM_A4074_ESL.pdf", "12.5 mm"
+END_PART
+
+END.

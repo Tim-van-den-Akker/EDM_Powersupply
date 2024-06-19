@@ -1,5 +1,8 @@
 (fp_lib_table
   (version 7)
   (lib (name "IPW65R037C6")(type "KiCad")(uri "${KIPRJMOD}/Library/IPW65R037C6_mosfet/IPW65R037C6")(options "")(descr ""))
-  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/Library/UCC27537DBVR_gatedriver/footprints.pretty")(options "")(descr ""))
+  (lib (name "GATEDRIVER")(type "KiCad")(uri "${KIPRJMOD}/Library/UCC27537DBVR_gatedriver/footprints.pretty")(options "")(descr ""))
+  (lib (name "ACSL-7210-06RE")(type "KiCad")(uri "${KIPRJMOD}/Library/ACSL-7210-06RE")(options "")(descr ""))
+  (lib (name "RASPBERRY_PI_PICO")(type "KiCad")(uri "${KIPRJMOD}/Library/RASPBERRY_PI_PICO")(options "")(descr ""))
+  (lib (name "EDMCondensators")(type "KiCad")(uri "${KIPRJMOD}/Library/condensator")(options "")(descr ""))
 )

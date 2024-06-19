@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_15784207"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-03-11-04:25:59)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "ESL225M250AE3AA")
+)
+
+
+(pinAssign "ECS_15784207"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-03-11-04:25:59)
+    (utime 2023-03-07-16:10:32)
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_15784207")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ESL225M250AE3AA")
+)
+
+
+(part "ESL225M250AE3AA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2022-03-11-04:25:59)
+    (utime 2023-03-07-16:10:32)
+    (packageRef "ESL225M250AE3AA")
+    (pinAssignRef "ECS_15784207")
+    (interface
+        (port "1" (symbPinId 1) (portName "+") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "-") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "NO")
+    (property "refDesPrefix" "C")
+    (property "description" "ESL, Aluminum, Aluminum Electrolytic, 2.2 uF, 20%, 250 VDC, -40/+105C, 105C, -40C, 105C, 8,000 Hrs, 15 % , 10.15 Ohms, 21 uA, 6, 6.3mm, 11mm, Lead Spacing = 2.5mm, 20mm, 10000")
+    (property "Mouser_Part_Number" "80-ESL225M250AE3AA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/KEMET/ESL225M250AE3AA?qs=Wj%2FVkw3K%252BMBOyYSAJV1eVA%3D%3D")
+    (property "Manufacturer_Name" "KEMET")
+    (property "Manufacturer_Part_Number" "ESL225M250AE3AA")
+    (property "Datasheet_Link" "https://content.kemet.com/datasheets/KEM_A4074_ESL.pdf")
+    (property "compAreaTopHeight" 12.5)
+)
+
+

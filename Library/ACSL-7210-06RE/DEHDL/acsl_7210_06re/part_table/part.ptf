@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ACSL_7210_06RE'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Avago Technologies", "ACSL-7210-06RE" (!) = "", "SOIC127P600X175-8N", "Small Outline Packages", "630-ACSL-7210-06RE", "https://www.mouser.co.uk/ProductDetail/Broadcom-Avago/ACSL-7210-06RE?qs=3oHdzXquMOy6LsI3XOac9Q%3D%3D", "OptoCoupler 2-CH 8-Pin SO Tube - Bulk Dual-Channel (Bidirectional) 25-MBd CMOS Buffered Input Digital Optocoupler", "https://docs.broadcom.com/docs/AV02-4235EN", "1.75 mm"
+END_PART
+
+END.

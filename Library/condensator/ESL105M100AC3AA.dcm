@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ESL105M100AC3AA
+D ESL, Aluminum, Aluminum Electrolytic, 1 uF, 20%, 100 VDC, -40/+105C, 105C, -40C, 105C, 8,000 Hrs, 9 % , 1.85 Ohms, 3 uA, 3, 4, 5mm, 11mm, Lead Spacing = 2mm, 20mm, 10000
+K
+F https://content.kemet.com/datasheets/KEM_A4074_ESL.pdf
+$ENDCMP
+#
+#End Doc Library
