@@ -300,7 +300,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -310,7 +309,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -329,7 +327,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -339,7 +336,6 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
@@ -410,200 +406,6 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "VI_B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 0)
-					(length 5.08)
-					(name "GND_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -7.62 180)
-					(length 5.08)
-					(name "GND_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -5.08 180)
-					(length 5.08)
-					(name "VOB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 -2.54 180)
-					(length 5.08)
-					(name "VI_A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 30.48 0 180)
-					(length 5.08)
-					(name "VDD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Comparator:LMV7219M7"
-			(pin_names
-				(offset 0.127)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -1.27 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "LMV7219M7"
-				(at -1.27 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-				(at -2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmv7219.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Low-Power High-Speed Push-Pull Output Comparator, SC-70-5"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cmp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?353*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LMV7219M7_0_1"
-				(polyline
-					(pts
-						(xy -5.08 5.08) (xy 5.08 0) (xy -5.08 -5.08) (xy -5.08 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 				(pin power_in line
 					(at -2.54 -7.62 90)
 					(length 3.81)
@@ -632,7 +434,6 @@
 							)
 						)
 					)
-					(number "5"
 					(number "5"
 						(effects
 							(font
@@ -5076,17 +4877,12 @@
 		)
 		(symbol "power:+15V"
 			(power)
-		(symbol "power:+15V"
-			(power)
 			(pin_numbers hide)
 			(pin_names
-				(offset 0) hide)
 				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
 				(effects
@@ -5094,11 +4890,8 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-					(hide yes)
 				)
 			)
-			(property "Value" "+15V"
-				(at 0 3.556 0)
 			(property "Value" "+15V"
 				(at 0 3.556 0)
 				(effects
@@ -5117,7 +4910,6 @@
 				)
 			)
 			(property "Datasheet" ""
-			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5127,7 +4919,6 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+15V\""
-			(property "Description" "Power symbol creates a global label with name \"+15V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5136,7 +4927,6 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "global power"
 			(property "ki_keywords" "global power"
 				(at 0 0 0)
 				(effects
@@ -5150,28 +4940,17 @@
 				(polyline
 					(pts
 						(xy -0.762 1.27) (xy 0 2.54)
-			(symbol "+15V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
 					)
-					(stroke
-						(width 0)
-						(type default)
 					(stroke
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-					(fill
-						(type none)
 					)
-				)
 				)
 				(polyline
 					(pts
-						(xy 0 0) (xy 0 2.54)
 						(xy 0 0) (xy 0 2.54)
 					)
 					(stroke
@@ -5186,25 +4965,15 @@
 					(pts
 						(xy 0 2.54) (xy 0.762 1.27)
 					)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
 					(stroke
-						(width 0)
 						(width 0)
 						(type default)
 					)
 					(fill
 						(type none)
-						(type none)
 					)
 				)
 			)
-			(symbol "+15V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
 			(symbol "+15V_1_1"
 				(pin power_in line
 					(at 0 0 90)
@@ -5227,7 +4996,6 @@
 			)
 		)
 		(symbol "power:+24V"
-		(symbol "power:+24V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -5244,7 +5012,6 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+24V"
 			(property "Value" "+24V"
 				(at 0 3.556 0)
 				(effects
@@ -5272,7 +5039,6 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+24V\""
-			(property "Description" "Power symbol creates a global label with name \"+24V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5290,7 +5056,6 @@
 					(hide yes)
 				)
 			)
-			(symbol "+24V_0_1"
 			(symbol "+24V_0_1"
 				(polyline
 					(pts
@@ -5330,7 +5095,6 @@
 				)
 			)
 			(symbol "+24V_1_1"
-			(symbol "+24V_1_1"
 				(pin power_in line
 					(at 0 0 90)
 					(length 0)
@@ -5352,7 +5116,6 @@
 			)
 		)
 		(symbol "power:+3.3V"
-		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
 			(pin_names
@@ -5369,7 +5132,6 @@
 					(hide yes)
 				)
 			)
-			(property "Value" "+3.3V"
 			(property "Value" "+3.3V"
 				(at 0 3.556 0)
 				(effects
@@ -5397,7 +5159,6 @@
 				)
 			)
 			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
 				(at 0 0 0)
 				(effects
 					(font
@@ -5415,7 +5176,6 @@
 					(hide yes)
 				)
 			)
-			(symbol "+3.3V_0_1"
 			(symbol "+3.3V_0_1"
 				(polyline
 					(pts
@@ -5454,7 +5214,6 @@
 					)
 				)
 			)
-			(symbol "+3.3V_1_1"
 			(symbol "+3.3V_1_1"
 				(pin power_in line
 					(at 0 0 90)
@@ -6808,7 +6567,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "23e2d44e-548f-444c-af1d-4cffeafd0b15")
+		(uuid "1ee9d523-67b5-449d-8817-23963be3770e")
 	)
 	(wire
 		(pts
@@ -6838,7 +6597,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "26f7e53c-2bb2-4b6d-a701-af8e968558c1")
+		(uuid "25084494-6ef4-4b6d-b262-9381334a7df0")
 	)
 	(wire
 		(pts
@@ -7218,7 +6977,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "467e074f-99f1-4d29-ac88-eb72250ad24a")
+		(uuid "5206905d-d3cb-4f9f-b57a-5a26f0122674")
 	)
 	(wire
 		(pts
@@ -7678,7 +7437,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8d64059f-6a74-46fb-8aaf-7c0833bc78af")
+		(uuid "8fcb318b-fa3b-4e46-b533-f1be37efd9c3")
 	)
 	(wire
 		(pts
@@ -7688,7 +7447,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "8e1274e1-d6a9-4967-a32c-4264d2858d33")
+		(uuid "9016e6b5-59b7-488e-91b6-1fbf8aa2f549")
 	)
 	(wire
 		(pts
@@ -8048,7 +7807,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "d98f7770-6c1b-4c5d-9a70-80ab6fa70253")
+		(uuid "d1e27ee9-252e-4fb0-adf9-63748b513af2")
 	)
 	(wire
 		(pts
@@ -8088,7 +7847,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "df1e5f42-69e5-441a-a4ed-2a3ed7915c1c")
+		(uuid "d715cfe5-4504-4596-a6f3-f33d8486514a")
 	)
 	(wire
 		(pts
@@ -8158,7 +7917,7 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "e9372643-2f45-44ed-b17f-7e88da668c23")
+		(uuid "e79276f2-cedd-4166-be1d-8f60eb52d10d")
 	)
 	(wire
 		(pts
@@ -8356,7 +8115,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 6658e839-784d-4b82-a08e-f470ce3ec05b)
+		(uuid 45036873-8d74-4610-9ab9-974b23357229)
 	)
 	(rectangle
 		(start 179.07 118.11)
@@ -8368,7 +8127,7 @@
 		(fill
 			(type none)
 		)
-		(uuid 702a74db-0f46-4e77-a06a-1cf243fac3a2)
+		(uuid 6658e839-784d-4b82-a08e-f470ce3ec05b)
 	)
 	(rectangle
 		(start 85.09 116.84)
@@ -8554,16 +8313,6 @@
 		)
 		(uuid "43253e86-3bde-4917-beb1-1865779b7e86")
 	)
-	(text "High side"
-		(exclude_from_sim no)
-		(at 63.246 167.894 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "439d40e6-e1ce-491f-838a-bec10b84fba7")
-	)
 	(text "ISOLATION"
 		(exclude_from_sim no)
 		(at 130.556 44.45 0)
@@ -8708,7 +8457,7 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "ddef079a-ecd2-4fe7-9682-a9913178355b")
+		(uuid "dff2ee64-2780-4647-b204-e6e15370cf12")
 	)
 	(text "Test pads"
 		(exclude_from_sim no)
@@ -8728,7 +8477,7 @@
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "dff2ee64-2780-4647-b204-e6e15370cf12")
+		(uuid "e419c145-e4d6-4220-ae57-1713f3bc0c0c")
 	)
 	(text "I2C interface"
 		(exclude_from_sim no)
@@ -8861,7 +8610,6 @@
 			(justify left)
 		)
 		(uuid "175918b5-b3c7-4439-b857-a072ff8739a8")
-		(uuid "175918b5-b3c7-4439-b857-a072ff8739a8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 261.1579 137.16 0)
 			(effects
@@ -8984,7 +8732,6 @@
 		)
 	)
 	(global_label "MeasRefPWMHigh"
-	(global_label "MeasRefPWMHigh"
 		(shape input)
 		(at 151.13 140.97 0)
 		(fields_autoplaced yes)
@@ -8994,7 +8741,6 @@
 			)
 			(justify left)
 		)
-		(uuid "34eab643-053e-4042-9c32-1a8f48013caf")
 		(uuid "34eab643-053e-4042-9c32-1a8f48013caf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 170.3227 140.97 0)
@@ -9112,7 +8858,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -9139,7 +8885,7 @@
 			)
 		)
 	)
-	(global_label "DigitalMeasureLow"
+	(global_label "VoltageSense"
 		(shape input)
 		(at 193.04 90.17 0)
 		(fields_autoplaced yes)
@@ -9149,7 +8895,7 @@
 			)
 			(justify left)
 		)
-		(uuid "c1a62a92-07ac-4088-a56a-9ca857db2e0f")
+		(uuid "a1d9a052-0b91-49d4-b4d8-a3e2c5a08576")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 208.6041 90.17 0)
 			(effects
@@ -9948,10 +9694,6 @@
 		)
 		(pin "2"
 			(uuid "8d77a3cc-888c-4f87-80cf-8ddfeb90b788")
-			(uuid "71a3bde8-4ec3-4bda-abdb-974a2cd4d3d9")
-		)
-		(pin "2"
-			(uuid "8d77a3cc-888c-4f87-80cf-8ddfeb90b788")
 		)
 		(instances
 			(project "EDM_Powersupply"
@@ -9977,7 +9719,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(hide yes)
 			)
 		)
@@ -10043,6 +9784,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "GND"
@@ -10211,7 +9953,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "2f3d31d4-40fd-4511-a3e3-adbe22b612d7")
+			(uuid "5588c80d-77a6-4e39-b63f-c70faeb50ef4")
 		)
 		(instances
 			(project "EDM_Powersupply"
@@ -10307,7 +10049,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 				(hide yes)
 			)
 		)
@@ -10574,6 +10315,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "100k"
@@ -10582,6 +10324,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
@@ -10611,16 +10354,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "29b6a566-517a-47dd-a7ff-c6a209445414")
-		)
 		(pin "1"
-			(uuid "08b06bb3-15fd-46da-9bb8-72a049e132f2")
+			(uuid "7a843a4c-782d-4943-872c-d2ecf05cf62a")
+		)
+		(pin "2"
+			(uuid "f54fb394-dbf4-4da8-b49e-0e2b45105f8a")
 		)
 		(instances
 			(project "EDM_Powersupply"
 				(path "/25514edd-baec-405d-b564-4fa05365ce84"
-					(reference "R3")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -10642,7 +10385,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "GNDS"
@@ -11165,7 +10908,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -11175,7 +10917,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(hide yes)
 			)
 		)
@@ -11241,7 +10982,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 				(justify left top)
 				(hide yes)
 			)
@@ -11322,16 +11062,8 @@
 		)
 		(pin "8"
 			(uuid "737380a3-b9d3-4f4b-ba60-056d98600d50")
-			(uuid "745b84e2-ddab-4f12-bcb7-ae0564fd91bd")
-		)
-		(pin "8"
-			(uuid "737380a3-b9d3-4f4b-ba60-056d98600d50")
 		)
 		(pin "2"
-			(uuid "408736a3-2283-4ab6-af1f-34dd8827f2cd")
-		)
-		(pin "5"
-			(uuid "d4dbe703-9716-417c-8aed-80aa71b26a33")
 			(uuid "408736a3-2283-4ab6-af1f-34dd8827f2cd")
 		)
 		(pin "5"
@@ -11340,7 +11072,6 @@
 		(instances
 			(project "EDM_Powersupply"
 				(path "/25514edd-baec-405d-b564-4fa05365ce84"
-					(reference "IC1")
 					(reference "IC1")
 					(unit 1)
 				)
@@ -12454,7 +12185,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Value" "1u"
@@ -12463,6 +12194,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
@@ -12578,7 +12310,7 @@
 		(lib_id "power:+3.3V")
 		(at 114.3 128.27 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12730,7 +12462,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
@@ -12761,7 +12492,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "26f84ec4-0629-49ab-8fed-7b3e42efc6de")
+			(uuid "47854066-c43e-4005-a324-a855b8c2c69a")
 		)
 		(instances
 			(project "EDM_Powersupply"
@@ -12776,7 +12507,7 @@
 		(lib_id "Driver_FET:STGAP2SM")
 		(at 130.81 87.63 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
@@ -12879,7 +12610,10 @@
 			(uuid "ace024ca-cf33-48a4-b9d5-33ba3d7131fa")
 		)
 		(pin "2"
-			(uuid "584f67e4-bb9b-4727-8ba7-69d4f5fafbc9")
+			(uuid "a1ec80b1-ad3a-4312-a39d-f08636206511")
+		)
+		(pin "1"
+			(uuid "26f84ec4-0629-49ab-8fed-7b3e42efc6de")
 		)
 		(instances
 			(project "EDM_Powersupply"
@@ -14409,6 +14143,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -14439,7 +14174,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "d1b09bbe-2e9a-49a7-a30f-f648c7b314d8")
+			(uuid "ef2787bd-92cc-4c96-8422-0cff083ff289")
 		)
 		(instances
 			(project "EDM_Powersupply"
@@ -14504,7 +14239,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dff1e55-c1e8-4ba3-a195-3787d5bd87ae")
+			(uuid "8a0ca26d-5c71-411c-b5e4-2df8cfd9ce15")
 		)
 		(instances
 			(project "EDM_Powersupply"
@@ -14570,7 +14305,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "6fa8cb38-8e94-45ed-b83a-aae35cf7d776")
+			(uuid "476b1235-1b2b-4184-8fd5-14211b7cde5c")
 		)
 		(instances
 			(project "EDM_Powersupply"
@@ -14596,7 +14331,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "3.3k"
@@ -14605,7 +14339,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
@@ -14635,44 +14368,16 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 67.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 67.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 67.31 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
 		(pin "1"
-			(uuid "8f6b347b-5a21-4956-b4a2-9283f8543876")
+			(uuid "4a7bd2a0-ab41-4798-891b-55f0eba0e15f")
 		)
 		(pin "2"
-			(uuid "f70173a6-197e-450b-ae9f-00cedcc00e85")
+			(uuid "f7e813d3-f0b4-4584-a79b-5db028012b72")
 		)
 		(instances
 			(project "EDM_Powersupply"
 				(path "/25514edd-baec-405d-b564-4fa05365ce84"
-					(reference "V2")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -14703,7 +14408,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 				(justify right)
 			)
 		)
@@ -15820,6 +15524,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "H+3.3V"
@@ -15885,7 +15590,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "GNDS"
@@ -15921,34 +15626,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=+ 2=-"
-			(at 121.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" "DC"
-			(at 121.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "V"
-			(at 121.92 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -16324,7 +16001,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(hide yes)
 			)
 		)
 		(property "Value" "GNDS"
@@ -16333,7 +16010,6 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -16362,9 +16038,6 @@
 				)
 				(hide yes)
 			)
-		)
-		(pin "2"
-			(uuid "0d5d85af-ba6f-4c57-b21f-a051b0f2dab1")
 		)
 		(pin "1"
 			(uuid "b2b2d449-2661-48ae-bd68-0d92088485ff")
@@ -16460,7 +16133,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
+				(justify left)
 			)
 		)
 		(property "Value" "1u"
@@ -16469,6 +16142,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P7.50mm"
@@ -16499,7 +16173,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "5edb371f-a00a-43aa-92df-efaae6167849")
+			(uuid "10cbc537-72ec-4aac-be81-804bcfc315a2")
+		)
+		(pin "2"
+			(uuid "f91a1f3d-6d2d-419f-9496-422d822384d8")
 		)
 		(instances
 			(project "EDM_Powersupply"
