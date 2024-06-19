@@ -1,0 +1,26 @@
+Circuit: * C:\Users\11057\Documents\GitHub\Voeding\EDM_Powersupply\LTSpice\EDM_Powersupply\Draft1.asc
+
+Limiting rise time of source v1 to 2e-007
+Limiting fall time of source v1 to 2e-007
+WARNING: Node NC_01 is floating.
+
+WARNING: Less than two connections to node NC_01.  This node is used by C1.
+.OP point found by inspection.
+
+Date: Tue Jun 04 14:59:51 2024
+Total elapsed time: 0.078 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 20388
+traniter = 20388
+tranpoints = 10195
+accept = 10172
+rejected = 23
+matrix size = 5
+fillins = 0
+solver = Normal
+Matrix Compiler1: 150 bytes object code size  0.0/0.0/[0.0]
+Matrix Compiler2: off  [0.0]/0.0/0.0
+

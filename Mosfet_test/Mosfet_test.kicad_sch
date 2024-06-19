@@ -5,6 +5,163 @@
 	(uuid "d48048dc-112f-48cd-b9ca-e7317887f716")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:L"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 -2.54)
+					(mid 0.6323 -1.905)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 0.635)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 1.905)
+					(end 0 2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -911,6 +1068,18 @@
 		)
 	)
 	(junction
+		(at 166.37 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46691773-e203-4061-9c39-ef7503cfee26")
+	)
+	(junction
+		(at 166.37 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7263a3f9-e722-46e7-a98e-18f43387cbb5")
+	)
+	(junction
 		(at 139.7 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -918,13 +1087,13 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 67.31) (xy 166.37 76.2)
+			(xy 166.37 76.2) (xy 179.07 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0e657261-8d3f-4354-9a90-38d0168ec6ad")
+		(uuid "1d475a7a-736b-4c4d-88bf-8710aecb8726")
 	)
 	(wire
 		(pts
@@ -958,13 +1127,23 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 59.69) (xy 166.37 53.34)
+			(xy 166.37 53.34) (xy 166.37 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6050bcac-f09a-4773-8d78-fe1c31ddd90f")
+		(uuid "63255777-fc78-421f-bf18-d63b967b49ca")
+	)
+	(wire
+		(pts
+			(xy 179.07 72.39) (xy 179.07 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75c4e4e8-8df6-49e7-a450-5b885a781323")
 	)
 	(wire
 		(pts
@@ -975,6 +1154,26 @@
 			(type default)
 		)
 		(uuid "873a690a-4853-4fbb-9071-263da654e1a4")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 179.07 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880f57d6-e422-4e0b-911e-ea64a14f6b23")
+	)
+	(wire
+		(pts
+			(xy 166.37 55.88) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "989a8ea8-7821-48a1-bfe6-c720e1e25f37")
 	)
 	(wire
 		(pts
@@ -998,6 +1197,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 74.93) (xy 166.37 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1fb808c-c576-4ed4-8279-f7cf099f05c1")
+	)
+	(wire
+		(pts
 			(xy 165.1 53.34) (xy 166.37 53.34)
 		)
 		(stroke
@@ -1005,6 +1214,16 @@
 			(type default)
 		)
 		(uuid "cb5f34cd-06fe-4e95-8e97-4b1ae71092f0")
+	)
+	(wire
+		(pts
+			(xy 179.07 55.88) (xy 179.07 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5669808-1929-49e5-a592-54eb488baff7")
 	)
 	(symbol
 		(lib_id "Simulation_SPICE:NMOS")
@@ -1025,7 +1244,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "IPW65R037C6_L0"
 			(at 170.18 82.5499 0)
 			(effects
 				(font
@@ -1061,8 +1280,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "NMOS"
-			(at 163.83 98.425 0)
+		(property "Sim.Device" "SUBCKT"
+			(at 163.83 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,8 +1289,8 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Type" "VDMOS"
-			(at 163.83 100.33 0)
+		(property "Sim.Pins" "1=drain 2=gate 3=source"
+			(at 163.83 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1079,8 +1298,17 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 163.83 96.52 0)
+		(property "Sim.Library" "C:\\Users\\joey2\\Documents\\3e jaar\\BAP\\Github\\EDM_Powersupply\\Library\\IPW65R037C6_mosfet\\SimulationModel_CoolMOS_C6_MOSFET_650V_Spice.lib"
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "IPW65R037C6_L0"
+			(at 163.83 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,6 +1395,76 @@
 			(project "Mosfet_test"
 				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 166.37 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c32a852-e0d9-48d3-9e09-09372452ee33")
+		(property "Reference" "L1"
+			(at 167.64 69.8499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "6.4u"
+			(at 167.64 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 166.37 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80f2ea62-bcda-49c8-aea4-d5ea8a2d5e5c")
+		)
+		(pin "1"
+			(uuid "a0e9d3b2-66f2-493a-bbfd-3c2fac3d970b")
+		)
+		(instances
+			(project "Mosfet_test"
+				(path "/d48048dc-112f-48cd-b9ca-e7317887f716"
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -1389,7 +1687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Params" "y1=0 y2=5 td=0 tr=2n tf=2n  tw=500n per=1000n"
+		(property "Sim.Params" "y1=0 y2=5 td=0 tr=2n tf=2n  tw=2u per=20u"
 			(at 123.3198 76.2 90)
 			(effects
 				(font
@@ -1701,7 +1999,7 @@
 				)
 			)
 		)
-		(property "Value" "80"
+		(property "Value" "100"
 			(at 160.1498 48.26 90)
 			(effects
 				(font
